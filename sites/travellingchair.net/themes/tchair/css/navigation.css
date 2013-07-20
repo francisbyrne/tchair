@@ -1,0 +1,51 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000311}}
+ul li.expanded {
+  list-style-image: url(../images/menu-expanded.png);
+  list-style-type: circle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000315}}
+ul li.collapsed {
+  list-style-image: url(../images/menu-collapsed.png);
+  list-style-type: disc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000319}}
+ul li.leaf {
+  list-style-image: url(../images/menu-leaf.png);
+  list-style-type: square;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000327}}
+li a.active {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000339}}
+#navigation ul.links,
+#navigation .content ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000344}}
+#navigation ul.links li,
+#navigation .content ul li {
+  float: left;
+  padding: 0 10px 0 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation\.scss}line{font-family:\0000363}}
+#secondary-menu {
+  float: right;
+}

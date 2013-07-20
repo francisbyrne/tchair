@@ -1,0 +1,19 @@
+body #admin-menu {
+  background: #2e7f23 url(images/bkg-green.png) bottom left repeat-x;
+}
+
+body #admin-menu li li{
+	background: #2e7f23;
+}
+
+body #admin-menu li li:hover{
+	background: #4a9b3f;
+}
+
+body #admin-menu li li.expandable{
+	background: #2e7f23;
+}
+
+body #admin-menu li li.expandable:hover{
+	background: #4a9b3f;
+}

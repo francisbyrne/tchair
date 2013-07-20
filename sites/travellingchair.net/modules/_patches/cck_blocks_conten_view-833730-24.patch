@@ -1,0 +1,42 @@
+diff --git a/cck_blocks.module b/cck_blocks.module
+index f8e67fa..5aec222 100644
+--- a/cck_blocks.module
++++ b/cck_blocks.module
+@@ -98,22 +98,21 @@ function cck_blocks_block_view($delta = '') {
+ 
+     // build the node in cck_blocks mode if that hasn't been done yet
+     if (!isset($built_nodes[$nid])) {
+-      node_build_content($node, 'cck_blocks');
+-      $built_nodes[$nid] = $node;
+-    }
+-    else {
+-      $node = $built_nodes[$nid];
++      field_attach_prepare_view('node', array($node->nid => $node), 'cck_blocks');
++      entity_prepare_view('node', array($node->nid => $node));
++      $built_nodes[$nid] = field_attach_view('node', $node, 'cck_blocks', $node->language);
+     }
++    
+ 
+     // look directly for the cck_field in the content array
+     $field_data = false;
+-    if (isset($node->content[$delta])) {
+-      $field_data = $node->content[$delta];
++    if (isset($built_nodes[$nid][$delta])) {
++      $field_data = $built_nodes[$nid][$delta];
+     }
+     else {
+       // cycle through all content data arrays looking for cck groups
+       // the cck_field may be within a group
+-      foreach ($node->content as $key => $data) {
++      foreach ($built_nodes[$nid] as $key => $data) {
+         if (is_array($data) && (strpos($key, 'group_') == 0) && isset($data['group'][$delta])) {
+           $field_data = $data['group'][$delta];
+         }
+@@ -148,6 +147,7 @@ function cck_blocks_block_view($delta = '') {
+   return $block;
+ }
+ 
++
+ /**
+  * Implements hook_form_FORM_ID_alter().
+  *

@@ -1,0 +1,222 @@
+@import "variables";
+
+//@media only screen and (max-width: 800px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* iPhone, Android rules here */
+
+
+/** NESTING STYLE **/
+
+body{
+
+	&.admin-menu{
+		margin-top: 65px !important;
+	}
+
+	&.front #content{
+		display: none;
+	}
+	
+
+#page-wrapper{	
+	margin-top: $mobile-main-border;
+	margin-bottom: $mobile-main-border;
+
+	@include border-radius(10px 10px);
+
+#page{
+
+
+
+#header{
+
+	border-bottom: 1px solid $border-color;
+	padding-bottom: $mobile-main-border;	
+	margin-bottom: $mobile-main-border;
+	margin-top: $mobile-main-border;
+
+    #logo{
+		display: none;
+    }
+
+	#name-and-slogan{
+		width: 100%;
+	}
+
+    h1#site-name, div#site-name{
+		margin-top: 0;
+		
+		
+		span{
+			width: 100%;
+			text-align: center;
+			margin-top: 0;
+			@include replace-text("../images/site-name-mobile.jpg");
+			height: 74px;
+		}
+    }
+
+    #site-slogan{
+		display: none;
+    }
+}
+
+#main{
+
+	
+
+#navigation{
+
+	width: 100%;
+	margin: 0 (-100%) 0 0;
+	padding-top: 5px;
+	height: 18px;
+	.section{
+		
+	}
+	
+	.block{
+		display: none;
+		
+		
+		//mobile menu
+		&#block-block-5{
+			width: 100%;
+			display: block;
+			
+			.form-item{
+				margin: 0;
+				
+				select{
+					width: 100%;
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+} //#navigation
+
+.region-banner{
+	display: none;
+}
+#content{
+	margin-right: -100%;
+	margin-top: 38px;
+	width: 100%;
+	
+	.tabs{
+		display: none;
+	}
+	
+	
+	form{
+		input[type=text], input[type=password]{
+			width: $mobile-main;
+		}
+	}
+	
+	.views-row{
+		padding: 5px 0;
+	}
+
+
+	// Search & Create view
+	#filter-location-wrapper,
+	#edit-field-search-value-wrapper{
+		width: 100%;
+	}
+	
+	#filter-location-value,
+	#edit-field-search-value{
+		width: $mobile-main - .5%;
+	}
+	//Location teaser
+	.node-teaser{		
+		.group-teaser-left{
+			width: $mobile-main - 10%;
+		}
+
+		.group-teaser-right{
+			float: none;
+			margin-left: 38px;
+		}
+	}//&.node-teaser
+	
+	// Near
+	#filter-location-wrapper{
+		.descriptions{
+			position: relative;
+		}
+	}
+
+	/* Location */
+	& .node-location{
+	
+		// Map (field latitude)
+		.field-name-field-latitude{
+			float: none;
+			margin: 0;
+		}
+		
+		.rate-field-label{
+			line-height: 1.1em;
+		}
+
+		.rate-widget-emotion ul{
+			height: 30px;
+			width: 104px;
+		}
+		
+		
+	} //& .node-location
+	
+
+	//Location submit form
+	#location-node-form {
+		.form-field-type-text, #edit-field-country{
+			margin-left: 0;
+			float: none;
+		}
+		
+		table td{
+			display: block;
+		}
+		
+		.map{
+			//display: none;
+		}
+	}
+	
+	
+} //#content
+
+.region-sidebar-first{
+	clear: both;
+	margin-top: $mobile-main-border;
+	width: 100%;
+	margin: 0;
+	
+} //.region-sidebar-first
+
+.region-sidebar-second{
+	clear: both;
+	margin-top: $mobile-main-border;	
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+		
+} //.region-sidebar-second
+
+} //#main
+
+} //#page
+
+} //#page-wrapper
+
+} //body
+
+
+}

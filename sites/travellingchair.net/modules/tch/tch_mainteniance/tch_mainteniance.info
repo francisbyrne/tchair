@@ -1,0 +1,5 @@
+name = Travelling Chair Maintenance
+description = Contain codes for travelling chair maintenance.
+package = Travelling Chair
+core = 7.x
+files[] = tch_maintenance.module

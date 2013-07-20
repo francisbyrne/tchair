@@ -1,0 +1,19 @@
+<?php
+/**
+ * @file admin_menu_alter.module
+ * TODO: Enter file description here.
+ */
+
+/**
+ * Implements hook_admin_menu_output_alter().
+ */
+function admin_menu_alter_admin_menu_output_alter(&$content) {
+  // Move Tasks and Index under the icon menu.
+  foreach ($content['menu'] as $key => $menu_item) {
+    if ($menu_item['#href'] == 'admin/tasks' || $menu_item['#href'] == 'admin/index') {
+      $menu_item['#weight'] = 70;
+      $content['icon']['icon'][$menu_item['#href']] = $menu_item;
+      unset($content['menu'][$key]);
+    }
+  }
+}

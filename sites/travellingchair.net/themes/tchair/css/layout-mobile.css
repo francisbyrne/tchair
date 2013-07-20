@@ -1,0 +1,194 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/layout-mobile\.scss}line{font-family:\0000331}}
+  #page-wrapper,
+  .region-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    width: 93.6%;
+    padding: 1.6%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/layout-mobile\.scss}line{font-family:\0000365}}
+  #main {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  #main #content {
+    float: left;
+    width: 93.6%;
+    margin: 78px -93.6% 0 0;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003201}}
+  #main #navigation {
+    float: left;
+    height: 58px;
+    margin: 0 -920px 0 0;
+    width: 920px;
+    padding: 20px 0 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003211}}
+  #main #content, #main #navigation {
+    overflow: visible;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003216}}
+  .ie6 #main #content, .ie6 #main #navigation {
+    display: inline;
+    overflow: hidden;
+    overflow-y: visible;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/layout-mobile\.scss}line{font-family:\0000386}}
+  .sidebar-first #main {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .sidebar-first #main .region-sidebar-first {
+    float: left;
+    width: 100%;
+    margin: 78px -100% 0 0;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .sidebar-first #main #content {
+    float: left;
+    width: -6.4%;
+    margin: 78px -93.6% 0 100%;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003201}}
+  .sidebar-first #main #navigation {
+    float: left;
+    height: 58px;
+    margin: 0 -920px 0 0;
+    width: 920px;
+    padding: 20px 0 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003211}}
+  .sidebar-first #main .region-sidebar-first, .sidebar-first #main #content, .sidebar-first #main #navigation {
+    overflow: visible;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003216}}
+  .ie6 .sidebar-first #main .region-sidebar-first, .ie6 .sidebar-first #main #content, .ie6 .sidebar-first #main #navigation {
+    display: inline;
+    overflow: hidden;
+    overflow-y: visible;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/layout-mobile\.scss}line{font-family:\00003105}}
+  .sidebar-second #main {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .sidebar-second #main #content {
+    float: left;
+    width: -6.4%;
+    margin: 78px 6.4% 0 0;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .sidebar-second #main .region-sidebar-second {
+    float: left;
+    width: 100%;
+    margin: 78px -93.6% 0 -6.4%;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003201}}
+  .sidebar-second #main #navigation {
+    float: left;
+    height: 58px;
+    margin: 0 -920px 0 0;
+    width: 920px;
+    padding: 20px 0 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003211}}
+  .sidebar-second #main #content, .sidebar-second #main .region-sidebar-second, .sidebar-second #main #navigation {
+    overflow: visible;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003216}}
+  .ie6 .sidebar-second #main #content, .ie6 .sidebar-second #main .region-sidebar-second, .ie6 .sidebar-second #main #navigation {
+    display: inline;
+    overflow: hidden;
+    overflow-y: visible;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/layout-mobile\.scss}line{font-family:\00003124}}
+  .two-sidebars #main {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .two-sidebars #main .region-sidebar-first {
+    float: left;
+    width: 100%;
+    margin: 78px -100% 0 0;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .two-sidebars #main #content {
+    float: left;
+    width: -106.4%;
+    margin: 78px 6.4% 0 100%;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003187}}
+  .two-sidebars #main .region-sidebar-second {
+    float: left;
+    width: 100%;
+    margin: 78px -93.6% 0 -6.4%;
+    padding: 0;
+    border: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003201}}
+  .two-sidebars #main #navigation {
+    float: left;
+    height: 58px;
+    margin: 0 -920px 0 0;
+    width: 920px;
+    padding: 20px 0 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003211}}
+  .two-sidebars #main .region-sidebar-first, .two-sidebars #main #content, .two-sidebars #main .region-sidebar-second, .two-sidebars #main #navigation {
+    overflow: visible;
+    word-wrap: break-word;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_zen-columns\.scss}line{font-family:\00003216}}
+  .ie6 .two-sidebars #main .region-sidebar-first, .ie6 .two-sidebars #main #content, .ie6 .two-sidebars #main .region-sidebar-second, .ie6 .two-sidebars #main #navigation {
+    display: inline;
+    overflow: hidden;
+    overflow-y: visible;
+  }
+
+  /*
+  #page-wrapper {
+    overflow-y: hidden;
+  }
+  */
+}

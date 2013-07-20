@@ -1,0 +1,186 @@
+@import "compass";
+@import "compass/support";
+
+
+//
+// Shared Sass variables for use in all .scss files.
+//
+
+//
+// These variables are used by many mixins to add additional CSS to support
+// specific versions of IE or specific vendor prefixes.
+//
+// To turn off support for IE6 or IE7, set those variables to false.
+//
+// Zen does not require special handling for IE8 or later. But Compass defines
+// more Legacy IE variables that you might find useful for your theme. See the
+// documentation for them at http://compass-style.org/reference/compass/support/
+$legacy-support-for-ie6: true;
+$legacy-support-for-ie7: true;
+
+
+//
+// Colors, font stacks, font sizes, etc.
+//
+
+
+/** mobile layout **/
+
+$mobile-main: 100%;
+$mobile-main-border: 1.6%;
+$mobile-sidebar1: 100%;
+$mobile-sidebar2: 100%;
+$mobile-gutters1: 0%;
+$mobile-gutters2: 0%;
+$mobile-main: $mobile-main - $mobile-main-border * 4;
+$mobile-sb1-content: $mobile-main - $mobile-sidebar1 - $mobile-gutters1;
+$mobile-sb2-content: $mobile-main - $mobile-sidebar2 - $mobile-gutters2;
+$mobile-sb-both-content: $mobile-main - $mobile-sidebar1 - $mobile-gutters1 - $mobile-sidebar2 - $mobile-gutters2;
+
+
+
+/** Layout **/
+
+$main: 960px;
+$main-border: 20px;
+$sidebar1: 180px;
+$sidebar2: 300px;
+$gutters1: 20px;
+$gutters2: 20px;
+
+
+$main: $main - $main-border * 2;
+$sb1-content: $main - $sidebar1 - $gutters1;
+$sb2-content: $main - $sidebar2 - $gutters2;
+$sb-both-content: $main - $sidebar1 - $gutters1 - $sidebar2 - $gutters2;
+
+$nav: 58px;
+$nav-width: $main;
+$nav-padding: 20px 0 0 0;
+
+
+/** Color Schemes **/
+
+$orange: #E56F26;
+$blue: #0071BC;
+$green: #328C37;
+$black: #000000;
+
+$headers-color: $green;
+$links-color: $blue;
+$body-color: $black;
+$background-color: "transparent";
+
+$border-color: #E6E6E6;
+
+// Headers	
+h1, h2, h3, h4, h5, h6{
+	color: $headers-color;
+}
+
+@mixin h1{
+	font-size: 1.8em;
+	line-height: 1.3em;
+	margin-top: 0;
+	margin-bottom: 0.5em; /* 0.5em is equavalent to 1em in the page's base font.
+	 Remember, a margin specified in ems is relative to
+	 the element's font-size, not to the pages' base
+	 font size. So, for example, if we want a 1em margin
+	 (relative to the base font), we have to divide that
+	 length by the element's font-size:
+	 1em / 2em = 0.5em */
+}
+
+@mixin h2{
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin-top: 0.667em; /* Equivalent to 1em in the page's base font: 1 / 1.5 = 0.667em */
+	margin-bottom: 0.667em;
+}
+
+@mixin h3{
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin-top: 0.769em; /* Equivalent to 1em in the page's base font: 1 / 1.3 = 0.769 */
+	margin-bottom: 0.769em;
+}
+@mixin h4{
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin-top: 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
+	margin-bottom: 0.909em;
+}
+
+@mixin roundbox-style($color: $green, $width: "auto"){
+	color: #fff;
+	background: $color;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	width: $width;
+	display: block;
+	
+	font-weight: bold;
+	font-size: 1.2em;
+	
+	a {
+		color: #fff;
+	}
+}
+
+@mixin roundbox($color: $green, $width: "auto"){
+
+	@include roundbox-style($color, $width);
+	@include border-radius;	
+
+}
+
+@mixin login-out($color){
+	
+	ul:first-child{
+		margin: 0;
+		padding: 0;
+
+		li{
+			float: left;
+			list-style: none;
+			padding-right: 10px;
+		
+			&:last-child{
+				padding: 0;
+			}
+		
+			a{
+				@include roundbox($color, 115px);
+			}
+		}
+	}
+}
+
+
+@mixin title-button(){
+
+	line-height: 38px;
+	margin-right: 7px;
+	font-size: 12px;
+	
+	color: #5A5A5A;
+	padding: 3px 8px;
+	border: 1px solid #E4E4E4;
+	border-bottom: 1px solid #B4B4B4;
+	border-left-color: #D2D2D2;
+	border-right-color: #D2D2D2;
+	background: url(../images/buttons.png) 0 0 repeat-x;
+	
+	@include border-radius;
+
+	&:active{
+		background: #666;
+		color: white;
+		border-color: #555;
+		text-shadow: #222 0 -1px 0;
+
+	}					
+	
+}

@@ -1,0 +1,29 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation-rtl\.scss}line{font-family:\000038}}
+ul li.collapsed {
+  list-style-image: url(../images/menu-collapsed-rtl.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation-rtl\.scss}line{font-family:\0000314}}
+#navigation ul.links,
+#navigation .content ul {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation-rtl\.scss}line{font-family:\0000317}}
+#navigation ul.links li,
+#navigation .content ul li {
+  float: right;
+  padding: 0 0 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/navigation-rtl\.scss}line{font-family:\0000324}}
+#secondary-menu {
+  float: left;
+}

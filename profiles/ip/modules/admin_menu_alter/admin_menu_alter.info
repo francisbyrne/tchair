@@ -1,0 +1,6 @@
+name = Admin menu alter
+description = Move task and index menu under the icon menu 
+dependencies[] = admin_menu
+package = Administration
+core = 7.x
+files[] = admin_menu_alter.module

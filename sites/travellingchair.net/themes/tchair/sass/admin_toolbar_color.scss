@@ -1,0 +1,47 @@
+@mixin admin_toolbar_red{
+
+	background: #911 url(../images/bkg-red.png) bottom left repeat-x;
+	
+	li li{
+		
+		background: #911;
+		
+		&:hover{
+			background: #ce5454;
+		}
+		
+		&.expandable{	
+			background: #911;
+			&:hover{
+				background: #ce5454;
+			}
+		}
+		
+	}
+}
+
+@mixin admin_toolbar_green{
+
+	background: #2e7f23 url(../images/bkg-green.png) bottom left repeat-x;
+	
+	li li{
+		
+		background: #2e7f23;
+		
+		&:hover{
+			background: #4a9b3f;
+		}
+		
+		&.expandable{	
+			background: #2e7f23;
+			&:hover{
+				background: #4a9b3f;
+			}
+		}
+		
+	}
+}
+	
+body #admin-menu{
+//	@include admin_toolbar_green;
+}

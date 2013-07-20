@@ -1,0 +1,12 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/blocks\.scss}line{font-family:\000038}}
+.block {
+  margin-bottom: 1.5em;
+}

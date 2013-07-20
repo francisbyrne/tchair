@@ -1,0 +1,88 @@
+name = Media Insights' Installation Profile
+description = Install with commonly used features pre-configured.
+core = 7.x
+
+files[] = ip.profile
+
+; -----------------------------------------------------------------------------
+;                                  Modules
+; -----------------------------------------------------------------------------
+; List the modules (core, contrib and/or features) to be enabled in the
+; dependencies[] array. Any dependencies of the listed modules will be detected
+; and enabled automatically.
+; -----------------------------------------------------------------------------
+
+; Moudles enabled in standard profile
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Core modules
+dependencies[] = php
+dependencies[] = syslog
+
+; Contribution modules
+dependencies[] = admin_menu
+dependencies[] = block_titlelink
+dependencies[] = ctools
+dependencies[] = custom_formatters
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_search
+dependencies[] = extlink
+dependencies[] = features
+dependencies[] = filefield_sources
+dependencies[] = globalredirect
+dependencies[] = iconizer
+dependencies[] = image_caption
+dependencies[] = image_caption_filter
+dependencies[] = imce
+dependencies[] = imce_crop
+dependencies[] = imce_mkdir
+dependencies[] = imce_wysiwyg
+dependencies[] = invisimail
+dependencies[] = masquerade
+dependencies[] = menu_admin_per_menu
+dependencies[] = menu_per_role
+dependencies[] = navigation404
+dependencies[] = nodeblock
+dependencies[] = page_title
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
+dependencies[] = zenophile
+dependencies[] = zenophile_sidebars
+
+; Features
+dependencies[] = content_block
+

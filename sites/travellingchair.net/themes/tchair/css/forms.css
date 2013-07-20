@@ -1,0 +1,108 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\000038}}
+.form-item {
+  margin: 1.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000313}}
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 1px solid #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000317}}
+.form-item label {
+  display: block;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000322}}
+.form-item label.option {
+  display: inline;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000327}}
+.form-item .form-required {
+  color: #c00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000331}}
+.form-item .description {
+  font-size: 0.85em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000336}}
+.form-checkboxes .form-item, .form-radios .form-item {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000346}}
+.container-inline div,
+.container-inline label {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000359}}
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000374}}
+#user-login-form {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000382}}
+#user-login-form ul {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000387}}
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link {
+  margin-top: 1.5em;
+  margin-left: -20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000392}}
+#user-login-form li.user-link {
+  margin-top: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\0000397}}
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003109}}
+form th {
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: 3px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003115}}
+form tbody {
+  border-top: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003119}}
+form tr.even {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003123}}
+form table .item-list ul {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003132}}
+.ie6-7 tr.even th,
+.ie6-7 tr.even td,
+.ie6-7 tr.odd th,
+.ie6-7 tr.odd td {
+  border-bottom: 1px solid #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms\.scss}line{font-family:\00003141}}
+td.menu-disabled {
+  background: #ccc;
+}

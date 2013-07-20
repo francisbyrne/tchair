@@ -1,0 +1,230 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\0000328}}
+body {
+  font-size: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\0000333}}
+#skip-to-nav,
+#page {
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+}
+
+/*
+@font-face {
+  font-family: 'Example';
+  src: url('../fonts/example.eot');
+  src: url('../fonts/example.eot?iefix') format('eot'),
+    url('../fonts/example.woff') format('woff'),
+    url('../fonts/example.ttf') format('truetype'),
+    url('../fonts/example.svg#webfontOkOndcij') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\0000388}}
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset {
+  /*
+  font-family: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
+  font-family: Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Tahoma, Verdana, "DejaVu Sans", sans-serif;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+  */
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003121}}
+pre,
+code,
+kbd,
+samp,
+tt,
+var {
+  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003137}}
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl,
+hr, table, fieldset {
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003142}}
+h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0.75em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003153}}
+h2 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003158}}
+h3 {
+  font-size: 1.3em;
+  margin: 1.154em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003165}}
+h4,
+h5,
+h6 {
+  font-size: 1.1em;
+  margin: 1.364em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003174}}
+blockquote {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003179}}
+pre {
+  font-size: 1.1em;
+  margin: 1.364em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003184}}
+hr {
+  height: 1px;
+  border: 1px solid #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003199}}
+ul,
+ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003204}}
+.item-list ul {
+  margin: 1.5em 0;
+  padding: 0 0 0 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003210}}
+ul ul, ul ol, ol ul, ol ol, .item-list ul ul, .item-list ul ol, .item-list ol ul, .item-list ol ol {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003216}}
+li,
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003221}}
+ul {
+  list-style-type: disc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003223}}
+ul ul {
+  list-style-type: circle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003225}}
+ul ul ul {
+  list-style-type: square;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003227}}
+ul ul ul ul {
+  list-style-type: circle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003231}}
+ol {
+  list-style-type: decimal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003233}}
+ol ol {
+  list-style-type: lower-alpha;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003235}}
+ol ol ol {
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003242}}
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003247}}
+dd {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003259}}
+table {
+  border-collapse: collapse;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003264}}
+th {
+  text-align: left;
+  padding: 0;
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003270}}
+tbody {
+  border-top: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003299}}
+form {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003304}}
+fieldset {
+  padding: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003356}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/html-reset\.scss}line{font-family:\00003362}}
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}

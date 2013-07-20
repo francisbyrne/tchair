@@ -1,0 +1,28 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/wireframes\.scss}line{font-family:\0000317}}
+.with-wireframes #header .section,
+.with-wireframes #content .section,
+.with-wireframes #navigation .section,
+.with-wireframes .region-sidebar-first .section,
+.with-wireframes .region-sidebar-second .section,
+.with-wireframes .region-footer,
+.with-wireframes .region-bottom {
+  outline: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/wireframes\.scss}line{font-family:\0000322}}
+.ie6-7 .with-wireframes #header .section, .ie6-7
+.with-wireframes #content .section, .ie6-7
+.with-wireframes #navigation .section, .ie6-7
+.with-wireframes .region-sidebar-first .section, .ie6-7
+.with-wireframes .region-sidebar-second .section, .ie6-7
+.with-wireframes .region-footer, .ie6-7
+.with-wireframes .region-bottom {
+  border: 1px solid #ccc;
+}

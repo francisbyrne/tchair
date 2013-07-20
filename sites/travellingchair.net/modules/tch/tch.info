@@ -1,0 +1,10 @@
+name = "Travelling Chair"
+description = "Travelling Chair"
+core = "7.x"
+package = Travelling Chair
+
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "tch"
+datestamp = "1298619685"
+

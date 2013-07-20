@@ -1,0 +1,11 @@
+--- rate_org.module	2011-07-22 09:20:40.000000000 +1000
++++ rate.module	2011-07-22 09:19:22.000000000 +1000
+@@ -874,7 +874,7 @@ function rate_preprocess_rate_template_e
+     $info[] = t('Voting is closed.');
+   }
+   if ($mode != RATE_COMPACT) {
+-    if ($results['user_vote']) {
++    if (@$results['user_vote']) {
+       $info[] = t('You voted \'@option\'.', array('@option' => t($results['user_vote'])));
+     }
+   }

@@ -1,0 +1,175 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone, Android rules here */
+  /** NESTING STYLE **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000312}}
+  body.admin-menu {
+    margin-top: 65px !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000316}}
+  body.front #content {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000321}}
+  body #page-wrapper {
+    margin-top: 1.6%;
+    margin-bottom: 1.6%;
+    -moz-border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px;
+    -o-border-radius: 10px 10px;
+    -ms-border-radius: 10px 10px;
+    -khtml-border-radius: 10px 10px;
+    border-radius: 10px 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000331}}
+  body #page-wrapper #page #header {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 1.6%;
+    margin-bottom: 1.6%;
+    margin-top: 1.6%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000338}}
+  body #page-wrapper #page #header #logo {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000342}}
+  body #page-wrapper #page #header #name-and-slogan {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000346}}
+  body #page-wrapper #page #header h1#site-name, body #page-wrapper #page #header div#site-name {
+    margin-top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000350}}
+  body #page-wrapper #page #header h1#site-name span, body #page-wrapper #page #header div#site-name span {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    background-image: url('../images/../images/site-name-mobile.jpg?1318916704');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 74px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000359}}
+  body #page-wrapper #page #header #site-slogan {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000368}}
+  body #page-wrapper #page #main #navigation {
+    width: 100%;
+    margin: 0 -100% 0 0;
+    padding-top: 5px;
+    height: 18px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000378}}
+  body #page-wrapper #page #main #navigation .block {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000383}}
+  body #page-wrapper #page #main #navigation .block#block-block-5 {
+    width: 100%;
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000387}}
+  body #page-wrapper #page #main #navigation .block#block-block-5 .form-item {
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\0000390}}
+  body #page-wrapper #page #main #navigation .block#block-block-5 .form-item select {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003102}}
+  body #page-wrapper #page #main .region-banner {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003105}}
+  body #page-wrapper #page #main #content {
+    margin-right: -100%;
+    margin-top: 38px;
+    width: 100%;
+    /* Location */
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003110}}
+  body #page-wrapper #page #main #content .tabs {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003116}}
+  body #page-wrapper #page #main #content form input[type=text], body #page-wrapper #page #main #content form input[type=password] {
+    width: 93.6%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003121}}
+  body #page-wrapper #page #main #content .views-row {
+    padding: 5px 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003128}}
+  body #page-wrapper #page #main #content #filter-location-wrapper,
+  body #page-wrapper #page #main #content #edit-field-search-value-wrapper {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003133}}
+  body #page-wrapper #page #main #content #filter-location-value,
+  body #page-wrapper #page #main #content #edit-field-search-value {
+    width: 93.1%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003138}}
+  body #page-wrapper #page #main #content .node-teaser .group-teaser-left {
+    width: 83.6%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003142}}
+  body #page-wrapper #page #main #content .node-teaser .group-teaser-right {
+    float: none;
+    margin-left: 38px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003150}}
+  body #page-wrapper #page #main #content #filter-location-wrapper .descriptions {
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003159}}
+  body #page-wrapper #page #main #content .node-location .field-name-field-latitude {
+    float: none;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003164}}
+  body #page-wrapper #page #main #content .node-location .rate-field-label {
+    line-height: 1.1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003168}}
+  body #page-wrapper #page #main #content .node-location .rate-widget-emotion ul {
+    height: 30px;
+    width: 104px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003179}}
+  body #page-wrapper #page #main #content #location-node-form .form-field-type-text, body #page-wrapper #page #main #content #location-node-form #edit-field-country {
+    margin-left: 0;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003184}}
+  body #page-wrapper #page #main #content #location-node-form table td {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003196}}
+  body #page-wrapper #page #main .region-sidebar-first {
+    clear: both;
+    margin-top: 1.6%;
+    width: 100%;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tch\/sites\/travellingchair\.net\/themes\/tchair\/sass\/styles-mobile\.scss}line{font-family:\00003204}}
+  body #page-wrapper #page #main .region-sidebar-second {
+    clear: both;
+    margin-top: 1.6%;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+}

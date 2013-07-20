@@ -1,0 +1,19 @@
+body #admin-menu {
+  background: #911 url(images/bkg-red.png) bottom left repeat-x;
+}
+
+body #admin-menu li li{
+	background: #911;
+}
+
+body #admin-menu li li:hover{
+	background: #ce5454;
+}
+
+body #admin-menu li li.expandable{
+	background: #911;
+}
+
+body #admin-menu li li.expandable:hover{
+	background: #ce5454;
+}

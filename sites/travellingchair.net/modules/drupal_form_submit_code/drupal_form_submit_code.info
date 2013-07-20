@@ -1,0 +1,6 @@
+name = Drupal form submission code
+description = Show the code of drupal_form_submit in form submission
+dependencies[] = devel
+package = Media Insights
+core = 7.x
+files[] = drupal_form_submit_code.module

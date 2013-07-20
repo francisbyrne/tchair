@@ -1,0 +1,47 @@
+<?php
+
+function geolocation_proximity_init(){
+	require_once(drupal_get_path('module', 'geolocation_proximity').'/earth.inc');
+}
+
+function geolocation_proximity_views_api() {
+  return array(
+    'api' => '3.0-alpha1',
+    'path' => drupal_get_path('module', 'geolocation_proximity'),
+  );
+}
+
+function geolocation_proximity_field_views_data_alter(&$result, $field, $module){
+	if($module == 'geolocation'){
+		$fieldname = $field['field_name'];
+		$result['field_data_'.$fieldname][$field['field_name'].'_distance'] = array(
+			'group' => 'Fields',
+			'title' => $fieldname.' - distance',
+			'help' => 'sort by '.$fieldname.' with distance',
+			'title short' => $fieldname.' - distance',
+			'filter' => array(
+				'table' => 'field_data_'.$fieldname,
+				'handler' => 'geolocation_proximity_geolocation_distance_handler',
+			),
+		);
+	}
+}
+
+function _geolocation_proximity_convert_distance_to_meters($distance, $distance_unit = 'km') {
+  if (!is_numeric($distance)) {
+    return NULL;
+  }
+
+  if ($distance == 0) {
+    return NULL;
+  }
+
+  if ($distance_unit != 'km' && $distance_unit != 'mile') {
+    $distance_unit = 'km';
+  }
+
+  // Convert distance to meters
+  $retval = round(floatval($distance) * (($distance_unit == 'km') ? 1000.0 : 1609.347), 2);
+  return $retval;
+}
+

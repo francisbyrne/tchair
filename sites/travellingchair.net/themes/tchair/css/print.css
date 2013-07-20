@@ -1,0 +1,82 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000315}}
+  a:link,
+  a:visited {
+    text-decoration: underline !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000322}}
+  #site-name a:link,
+  #site-name a:visited {
+    text-decoration: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000329}}
+  #content a[href]:after {
+    content: " (" attr(href) ")";
+    font-weight: normal;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000336}}
+  #content a[href^="javascript:"]:after,
+  #content a[href^="#"]:after {
+    content: "";
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000341}}
+  #content abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000348}}
+  #content,
+  #content .section {
+    float: none;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000362}}
+  body,
+  #page-wrapper,
+  #page,
+  #main-wrapper,
+  #main,
+  #content,
+  #content .section {
+    color: #000;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000382}}
+  #skip-to-nav,
+  #toolbar,
+  #navigation,
+  .region-sidebar-first,
+  .region-sidebar-second,
+  .region-footer,
+  .breadcrumb,
+  div.tabs,
+  .action-links,
+  .links,
+  .book-navigation,
+  .forum-topic-navigation,
+  .pager,
+  .feed-icons {
+    visibility: hidden;
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/print\.scss}line{font-family:\0000389}}
+  #page-wrapper {
+    overflow-y: visible;
+  }
+}

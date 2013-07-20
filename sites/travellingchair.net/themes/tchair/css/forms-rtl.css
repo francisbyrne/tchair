@@ -1,0 +1,25 @@
+/** mobile layout **/
+/** Layout **/
+/** Color Schemes **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/_variables\.scss}line{font-family:\0000377}}
+h1, h2, h3, h4, h5, h6 {
+  color: #328c37;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms-rtl\.scss}line{font-family:\0000311}}
+#user-login-form {
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms-rtl\.scss}line{font-family:\0000320}}
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link {
+  margin-left: 0;
+  margin-right: -20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kelvin\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair\/sass\/forms-rtl\.scss}line{font-family:\0000334}}
+form th {
+  text-align: right;
+  padding-left: 1em;
+  padding-right: 0;
+}

@@ -1,0 +1,25 @@
+<?php
+/**
+ * @file
+ * 
+ */
+
+/**
+ * Implements hook_init().
+ *
+ */
+function tch_mainteniance_init() {
+  global $user;
+
+  if ($user->uid == 1) {
+	
+	$domain = $_SERVER['HTTP_HOST'];
+	$domain = explode('.', $domain);
+	
+	$path = drupal_get_path('module', 'tch_mainteniance');	
+
+	if (in_array('dev', $domain)) drupal_add_css($path . '/tch_mainteniance_dev.css');
+	else if (!in_array('localhost', $domain)) drupal_add_css($path . '/tch_mainteniance_live.css');
+  }
+
+}

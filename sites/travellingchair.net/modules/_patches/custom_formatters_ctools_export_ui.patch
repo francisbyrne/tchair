@@ -1,0 +1,70 @@
+--- /dev/null
++++ custom_formatters.inc
+@@ -4,34 +4,39 @@
+  * CTools Export UI plugin for SexyBookmarks profiles.
+  */
+ 
+-$plugin = array(
+-  'schema' => 'formatters',
+-  'access' => 'administer custom formatters',
+-
+-  'menu' => array(
+-    'menu prefix' => 'admin/structure',
+-    'menu item' => 'formatters',
+-    'menu title' => 'Formatters',
+-    'menu description' => 'Administer Formatters.',
+-  ),
+-
+-  'title singular' => t('formatter'),
+-  'title singular proper' => t('Formatter'),
+-  'title plural' => t('formatters'),
+-  'title plural proper' => t('Formatters'),
+-
+-  'handler' => 'custom_formatters_ui',
+-
+-  'form' => array(
+-    'settings' => 'custom_formatters_export_ui_form',
+-    'submit' => 'custom_formatters_export_ui_form_submit',
+-  ),
+-
+-  'export' => array(
+-    'admin_title' => 'label',
+-    'admin_description' => 'description',
+-  ),
+-);
++/**
++ * CTools Export UI required function for plugin definition
++ */
++function custom_formatters_custom_formatters_ctools_export_ui() {
++  return array(
++    'schema' => 'formatters',
++    'access' => 'administer custom formatters',
++
++    'menu' => array(
++      'menu prefix' => 'admin/structure',
++      'menu item' => 'formatters',
++      'menu title' => 'Formatters',
++      'menu description' => 'Administer Formatters.',
++    ),
++
++    'title singular' => t('formatter'),
++    'title singular proper' => t('Formatter'),
++    'title plural' => t('formatters'),
++    'title plural proper' => t('Formatters'),
++
++    'handler' => 'custom_formatters_ui',
++
++    'form' => array(
++      'settings' => 'custom_formatters_export_ui_form',
++      'submit' => 'custom_formatters_export_ui_form_submit',
++    ),
++
++    'export' => array(
++      'admin_title' => 'label',
++      'admin_description' => 'description',
++    ),
++  );
++}
+ 
+ /**
+  * Custom Formatters settings form.

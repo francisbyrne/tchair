@@ -1,0 +1,659 @@
+3.1.2 (Brainy Betty)
+fded7a947a19f346c5bc05cb5ccab8acfb4a4714
+o:Sass::Tree::RootNode
+:
+@linei:@template""!//
+// Mixins for Zen Columns layout method.
+//
+
+$legacy-support-for-ie6: true !default;
+
+
+//
+// This mixin should be applied to a container so that the children elements
+// become columns arranged with the Zen Columns layout method.
+//
+// The mixin has the following required parameters:
+// - $selectors: A list of selectors for all the columns inside the container.
+//   In this list, order the columns as you would like them to appear from
+//   left-to-right (or right-to-left when the $leading-direction is "right".)
+//   Note that the HTML for the columns can be in any order in the HTML source.
+// - $widths: A list of widths. Each one corresponds to a column specified in
+//   $selectors. e.g. The first width is for the first column. The second width
+//   is for the second column. etc.
+//
+// The mixin has the following optional parameters:
+// - $leading-direction: The direction the columns should float. Can be set to
+//   "left" or "right". An extremely advanced option allows you to specify a
+//   a list of directions, one direction for each column.
+// - $leading-gutters: A list of leading gutters; one per column. The leading
+//   gutter specifies the distance between the current column and the column
+//   floated just before it.
+// - $padding: A list of padding measurements; one per column. In order to
+//   specify a complex padding value like "0 4px 2px", you can use nested lists,
+//   e.g. $padding: ((0 4px 2px), (3px 0), (10px 5px 5px 10px))
+//   In order to use the same padding measurements for all columns, you can
+//   simply list one measurement total instead of one per column,
+//   e.g. $padding: ((5px 10px))
+//
+// In addition to standard columns, the mixin supports one horizontal navbar
+// that will appear (with a fixed height) above all the other columns. The
+// parameters for this optional navbar are:
+// - $navbar-selector: The selector for the navbar. It should be a child element
+//   of the container just as a normal column is.
+// - $navbar-height: The fixed height of the navbar. Required if the
+//   $navbar-selector is used.
+// - $navbar-width: The width of the navbar. Defaults to 100% of the container
+//   width.
+// - $navbar-leading-gutter: An optional leading space between the navbar and
+//   and the container's inner edge. If specified, the $navbar-width must also
+//   be specified so that the width plus leading gutter plus padding isn't
+//   greater than 100% of the container's width.
+// - $navbar-padding: An optional padding for the navbar. If specified, the
+//   $navbar-width must also be specified so that the width plus leading gutter
+//   plus padding isn't greater than 100% of the container's width.
+//
+@mixin zen-columns (
+  // Information about the columns.
+  $selectors: ('.sidebar1', '.content', '.sidebar2'),
+  $widths: (),
+  $leading-direction: (),
+  $leading-gutters: (),
+  $padding: (),
+
+  // Information about the navbar.
+  $navbar-selector: false,
+  $navbar-height: 0,
+  $navbar-width: 100%,
+  $navbar-leading-gutter: 0,
+  $navbar-padding: 0
+) {
+
+  // Allow some parameters to be simple strings instead of lists.
+  @if type_of($widths) != list {
+    $widths: ($widths);
+  }
+  @if type_of($leading-direction) != list {
+    $leading-direction: ($leading-direction);
+  }
+  @if type_of($leading-gutters) != list {
+    $leading-gutters: ($leading-gutters);
+  }
+  @if type_of($padding) != list {
+    $padding: ($padding);
+  }
+  @if type_of($navbar-padding) != list {
+    $navbar-padding: ($navbar-padding);
+  }
+
+  // Declare all our variables so they can be used in any child block scope.
+  $col: 0;
+  $float: left;
+  @if length($leading-direction) > 0 {
+    $float: nth($leading-direction, 1);
+  }
+  $gutter: 0;
+  $left-fill: 0;
+  $left-reset: 0;
+  $right-fill: 0;
+  $right-reset: 0;
+  $margin: 0;
+  $padding-values: 0;
+  $padding-x: 0;
+  $navbar-padding-x: 0;
+  $navbar-padding-y: 0;
+  $navbar-reset: 0;
+  $navbar-true-height: 0;
+  $container-children: $selectors;
+
+  @if $navbar-selector {
+    // Determine the padding height and width of the navbar.
+    $navbar-padding-x: 2 * nth($navbar-padding, 1);
+    $navbar-padding-y: 2 * nth($navbar-padding, 1);
+    @if length($navbar-padding) == 4 {
+      $navbar-padding-x: nth($navbar-padding, 2) + nth($navbar-padding, 4);
+    }
+    @else if length($navbar-padding) >= 2 {
+      $navbar-padding-x: 2 * nth($navbar-padding, 2);
+    }
+    @if length($navbar-padding) >= 3 {
+      $navbar-padding-y: nth($navbar-padding, 1) + nth($navbar-padding, 3);
+    }
+    // Determine the distance of the navbar's right edge from the container's left edge.
+    $navbar-reset: -$navbar-leading-gutter - $navbar-width - $navbar-padding-x;
+    // The columns need to know the true height of the navbar box.
+    $navbar-true-height: $navbar-height + $navbar-padding-y;
+    // Add the navbar to the list of the selectors of the container's children.
+    $container-children: append($container-children, $navbar-selector);
+  }
+
+  // #{} interpolation doesn't work when converting lists into selectors, so
+  // convert the list into an unquoted string before using it.
+  $string: false;
+  @each $child in $container-children {
+    @if $string == false {
+      $string: unquote($child);
+    }
+    @else {
+      $string: unquote($string + ', ' + $child);
+    }
+  }
+  $container-children: $string;
+
+  // Iterate over each column.
+  @each $column in $selectors {
+    // Number the columns.
+    $col: $col + 1;
+    // Find the width, floating direction and gutter of the current column.
+    $width: nth($widths, $col);
+    @if $col <= length($leading-direction) {
+      $float: nth($leading-direction, $col);
+    }
+    @if $col <= length($leading-gutters) {
+      $gutter: nth($leading-gutters, $col);
+    }
+    // Calculate the left/right padding as it affects the true width of the column.
+    @if $col <= length($padding) {
+      $padding-values: nth($padding, $col);
+      @if type_of($padding-values) != list {
+        $padding-values: ($padding-values);
+      }
+      $padding-x: 2 * nth($padding-values, 1);
+      @if length($padding-values) == 4 {
+        $padding-x: nth($padding-values, 2) + nth($padding-values, 4);
+      }
+      @else if length($padding-values) > 1 {
+        $padding-x: 2 * nth($padding-values, 2);
+      }
+    }
+    // If the column is floating from the left, determine the distance from the
+    // container's left edge to the column's left edge ($left-fill) and to the
+    // column's right edge ($left-reset).
+    @if $float == left {
+      $left-fill: $left-fill + $gutter;
+      $left-reset: -$left-fill - $padding-x - $width;
+      $margin: $navbar-true-height $left-reset 0 $left-fill;
+      // The next column needs to know how much the previous columns have filled.
+      $left-fill: $left-fill + $width + $padding-x;
+    }
+    // If the column is floating from the right, determine the distance from the
+    // container's right edge to the column's right edge ($right-fill) and to
+    // the column's left edge ($right-reset).
+    @else {
+      $right-fill: $right-fill + $gutter;
+      $right-reset: -$right-fill - $padding-x - $width;
+      $margin: $navbar-true-height $right-fill 0 $right-reset;
+      // The next column needs to know how much the previous columns have filled.
+      $right-fill: $right-fill + $width + $padding-x;
+    }
+
+    // Apply rules to the columns.
+    #{$column} {
+      float: $float;
+      width: $width;
+      margin: $margin;
+      padding: $padding-values;
+      border: 0 !important;
+    }
+  }
+
+  // Apply rules to the container.
+  position: relative;
+
+  // Apply rules to the navbar.
+  @if $navbar-selector {
+    #{$navbar-selector} {
+      float: $float;
+      height: $navbar-height;
+      margin: 0 $navbar-reset 0 $navbar-leading-gutter;
+      width: $navbar-width;
+      padding: $navbar-padding;
+    }
+  }
+
+  // Prevent overflowing content from breaking the layout.
+  #{$container-children} {
+    overflow: visible;
+    word-wrap: break-word; // A very nice CSS3 property.
+
+    @if $legacy-support-for-ie6 {
+      .ie6 & {
+        display: inline; // display inline or double your floated margin! [1]
+        overflow: hidden; // in IE6, overflow auto is broken [2] and so is overflow visible [3]
+        overflow-y: visible;
+      }
+    }
+  }
+}
+
+// REFERENCES
+//
+// 1. http://www.positioniseverything.net/explorer/doubled-margin.html
+// 2. http://browservulsel.blogspot.com/2005/04/ie-overflow-auto-scrollbar-overlap.html
+// 3. http://www.howtocreate.co.uk/wrongWithIE/?chapter=overflow%3Avisible%3B
+:@has_childrenT:@children[
+o:Sass::Tree::CommentNode:
+@loud0:@value"6/*
+ * Mixins for Zen Columns layout method.
+ * */;i:@silenti ;	[ :@options{ :@lines[ o:Sass::Tree::VariableNode:
+@name"legacy-support-for-ie6:@guarded"!default;i
+:
+@expro:Sass::Script::Bool;T;i
+;{ ;	[ ;@o;
+;0;"
+/*
+ * This mixin should be applied to a container so that the children elements
+ * become columns arranged with the Zen Columns layout method.
+ *
+ * The mixin has the following required parameters:
+ * - $selectors: A list of selectors for all the columns inside the container.
+ *   In this list, order the columns as you would like them to appear from
+ *   left-to-right (or right-to-left when the $leading-direction is "right".)
+ *   Note that the HTML for the columns can be in any order in the HTML source.
+ * - $widths: A list of widths. Each one corresponds to a column specified in
+ *   $selectors. e.g. The first width is for the first column. The second width
+ *   is for the second column. etc.
+ *
+ * The mixin has the following optional parameters:
+ * - $leading-direction: The direction the columns should float. Can be set to
+ *   "left" or "right". An extremely advanced option allows you to specify a
+ *   a list of directions, one direction for each column.
+ * - $leading-gutters: A list of leading gutters; one per column. The leading
+ *   gutter specifies the distance between the current column and the column
+ *   floated just before it.
+ * - $padding: A list of padding measurements; one per column. In order to
+ *   specify a complex padding value like "0 4px 2px", you can use nested lists,
+ *   e.g. $padding: ((0 4px 2px), (3px 0), (10px 5px 5px 10px))
+ *   In order to use the same padding measurements for all columns, you can
+ *   simply list one measurement total instead of one per column,
+ *   e.g. $padding: ((5px 10px))
+ *
+ * In addition to standard columns, the mixin supports one horizontal navbar
+ * that will appear (with a fixed height) above all the other columns. The
+ * parameters for this optional navbar are:
+ * - $navbar-selector: The selector for the navbar. It should be a child element
+ *   of the container just as a normal column is.
+ * - $navbar-height: The fixed height of the navbar. Required if the
+ *   $navbar-selector is used.
+ * - $navbar-width: The width of the navbar. Defaults to 100% of the container
+ *   width.
+ * - $navbar-leading-gutter: An optional leading space between the navbar and
+ *   and the container's inner edge. If specified, the $navbar-width must also
+ *   be specified so that the width plus leading gutter plus padding isn't
+ *   greater than 100% of the container's width.
+ * - $navbar-padding: An optional padding for the navbar. If specified, the
+ *   $navbar-width must also be specified so that the width plus leading gutter
+ *   plus padding isn't greater than 100% of the container's width.
+ * */;i;i ;	[ ;@;[ o:Sass::Tree::MixinDefNode:
+@args[[o:Sass::Script::Variable;"selectors:@underscored_name"selectors;{ o:Sass::Script::List	:@separator:
+comma;[o:Sass::Script::String	;".sidebar1;i;:
+@type:string;@o;	;".content;i;;;;@o;	;".sidebar2;i;;;;@;i;;@[o;;"widths;"widths;@o;	;:
+space;[ ;i<;@[o;;"leading-direction;"leading_direction;@o;	;;;[ ;i=;@[o;;"leading-gutters;"leading_gutters;@o;	;;;[ ;i>;@[o;;"padding;"padding;@o;	;;;[ ;i?;@[o;;"navbar-selector;"navbar_selector;@o;;F;iB;@[o;;"navbar-height;"navbar_height;@o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i ;iC:@original"0;@[o;;"navbar-width;"navbar_width;@o; ;![ ;"["%;ii;iD;#"	100%;@[o;;"navbar-leading-gutter;"navbar_leading_gutter;@o; ;!@H;"[ ;i ;iE;#"0;@[o;;"navbar-padding;"navbar_padding;@o; ;!@H;"[ ;i ;iF;#"0;@;"zen-columns;iG;T;	[)o;
+;0;"G/* Allow some parameters to be simple strings instead of lists. */;iI;i ;	[ ;@;[ u:Sass::Tree::IfNodeô[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"widths:@underscored_name"widths:
+@lineiJ:@options{ ;
+"type_of;iJ;@:@keywords{ :@operator:neq;iJ:@operand2o:Sass::Script::String	:@value"	list;iJ:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"widths:@guarded0;iK:
+@expro;		;
+"widths;"widths;iK;{ :@children[ ;{ u;$–[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"leading-direction:@underscored_name"leading_direction:
+@lineiM:@options{ ;
+"type_of;iM;@:@keywords{ :@operator:neq;iM:@operand2o:Sass::Script::String	:@value"	list;iM:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"leading-direction:@guarded0;iN:
+@expro;		;
+"leading-direction;"leading_direction;iN;{ :@children[ ;{ u;$∆[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"leading-gutters:@underscored_name"leading_gutters:
+@lineiP:@options{ ;
+"type_of;iP;@:@keywords{ :@operator:neq;iP:@operand2o:Sass::Script::String	:@value"	list;iP:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"leading-gutters:@guarded0;iQ:
+@expro;		;
+"leading-gutters;"leading_gutters;iQ;{ :@children[ ;{ u;$û[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"padding:@underscored_name"padding:
+@lineiS:@options{ ;
+"type_of;iS;@:@keywords{ :@operator:neq;iS:@operand2o:Sass::Script::String	:@value"	list;iS:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"padding:@guarded0;iT:
+@expro;		;
+"padding;"padding;iT;{ :@children[ ;{ u;$¡[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"navbar-padding:@underscored_name"navbar_padding:
+@lineiV:@options{ ;
+"type_of;iV;@:@keywords{ :@operator:neq;iV:@operand2o:Sass::Script::String	:@value"	list;iV:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"navbar-padding:@guarded0;iW:
+@expro;		;
+"navbar-padding;"navbar_padding;iW;{ :@children[ ;{ o;
+;0;"R/* Declare all our variables so they can be used in any child block scope. */;iZ;i ;	[ ;@;[ o;;"col;0;i[;o; ;!@H;"[ ;i ;i[;#"0;{ ;	[ ;@o;;"
+float;0;i\;o;	;"	left;i\;:identifier;{ ;	[ ;@u;$[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"leading-direction:@underscored_name"leading_direction:
+@linei]:@options{ ;
+"length;i];@:@keywords{ :@operator:gt;i]:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei ;i]:@original"0;@;@0[o:Sass::Tree::VariableNode;
+"
+float:@guarded0;i^:
+@expro;
+;[o;		;
+"leading-direction;"leading_direction;i^;{ o;;@;[ ;i;i^;"1;@;
+"nth;i^;@;{ :@children[ ;{ o;;"gutter;0;i`;o; ;!@H;"[ ;i ;i`;#"0;{ ;	[ ;@o;;"left-fill;0;ia;o; ;!@H;"[ ;i ;ia;#"0;{ ;	[ ;@o;;"left-reset;0;ib;o; ;!@H;"[ ;i ;ib;#"0;{ ;	[ ;@o;;"right-fill;0;ic;o; ;!@H;"[ ;i ;ic;#"0;{ ;	[ ;@o;;"right-reset;0;id;o; ;!@H;"[ ;i ;id;#"0;{ ;	[ ;@o;;"margin;0;ie;o; ;!@H;"[ ;i ;ie;#"0;{ ;	[ ;@o;;"padding-values;0;if;o; ;!@H;"[ ;i ;if;#"0;{ ;	[ ;@o;;"padding-x;0;ig;o; ;!@H;"[ ;i ;ig;#"0;{ ;	[ ;@o;;"navbar-padding-x;0;ih;o; ;!@H;"[ ;i ;ih;#"0;{ ;	[ ;@o;;"navbar-padding-y;0;ii;o; ;!@H;"[ ;i ;ii;#"0;{ ;	[ ;@o;;"navbar-reset;0;ij;o; ;!@H;"[ ;i ;ij;#"0;{ ;	[ ;@o;;"navbar-true-height;0;ik;o; ;!@H;"[ ;i ;ik;#"0;{ ;	[ ;@o;;"container-children;0;il;o;	;"selectors;"selectors;il;{ ;	[ ;@u;$∆[o:Sass::Script::Variable	:
+@name"navbar-selector:@underscored_name"navbar_selector:
+@linein:@options{ 0[o:Sass::Tree::CommentNode:
+@loud0:@value"@/* Determine the padding height and width of the navbar. */;io:@silenti :@children[ ;	{ :@lines[ o:Sass::Tree::VariableNode;"navbar-padding-x:@guarded0;ip:
+@expro:Sass::Script::Operation
+:@operand1o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i;ip:@original"2;	{ :@operator:
+times;ip:@operand2o:Sass::Script::Funcall
+:
+@args[o; 	;"navbar-padding;"navbar_padding;ip;	@o;;@;[ ;i;ip;"1;	@;"nth;ip;	@:@keywords{ ;	@;[ ;	@o;;"navbar-padding-y;0;iq;o;
+;o;;@;[ ;i;iq;"2;	{ ;;;iq;o;
+;[o; 	;"navbar-padding;"navbar_padding;iq;	@)o;;@;[ ;i;iq;"1;	@);"nth;iq;	@);{ ;	@);[ ;	@u:Sass::Tree::IfNode[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"navbar-padding:@underscored_name"navbar_padding:
+@lineir:@options{ ;
+"length;ir;@:@keywords{ :@operator:eq;ir:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei	;ir:@original"4;@;@u:Sass::Tree::IfNodeQ[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"navbar-padding:@underscored_name"navbar_padding:
+@lineiu:@options{ ;
+"length;iu;@:@keywords{ :@operator:gte;iu:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei;iu:@original"2;@;@0[o:Sass::Tree::VariableNode;
+"navbar-padding-x:@guarded0;iv:
+@expro; 
+;o;;@;[ ;i;iv;"2;{ ;:
+times;iv;o;
+;[o;		;
+"navbar-padding;"navbar_padding;iv;@o;;@;[ ;i;iv;"2;@;
+"nth;iv;@;{ ;@:@children[ ;{ [o:Sass::Tree::VariableNode;
+"navbar-padding-x:@guarded0;is:
+@expro; 
+;o;
+;[o;		;
+"navbar-padding;"navbar_padding;is;{ o;;@;[ ;i;is;"2;@;
+"nth;is;@;{ ;:	plus;is;o;
+;[o;		;
+"navbar-padding;"navbar_padding;is;@o;;@;[ ;i	;is;"4;@;
+"nth;is;@;{ ;@:@children[ ;{ u;õ[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"navbar-padding:@underscored_name"navbar_padding:
+@lineix:@options{ ;
+"length;ix;@:@keywords{ :@operator:gte;ix:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei;ix:@original"3;@;@0[o:Sass::Tree::VariableNode;
+"navbar-padding-y:@guarded0;iy:
+@expro; 
+;o;
+;[o;		;
+"navbar-padding;"navbar_padding;iy;{ o;;@;[ ;i;iy;"1;@;
+"nth;iy;@;{ ;:	plus;iy;o;
+;[o;		;
+"navbar-padding;"navbar_padding;iy;@o;;@;[ ;i;iy;"3;@;
+"nth;iy;@;{ ;@:@children[ ;{ o;
+;0;"\/* Determine the distance of the navbar's right edge from the container's left edge. */;i{;i ;[ ;	@;[ o;;"navbar-reset;0;i|;o;
+;o;
+;o:!Sass::Script::UnaryOperation	:@operando; 	;"navbar-leading-gutter;"navbar_leading_gutter;i|;	{ ;:
+minus;i|;	@C;;";i|;o; 	;"navbar-width;"navbar_width;i|;	@C;	@C;;";i|;o; 	;"navbar-padding-x;"navbar_padding_x;i|;	@C;	@C;[ ;	@o;
+;0;"F/* The columns need to know the true height of the navbar box. */;i};i ;[ ;	@;[ o;;"navbar-true-height;0;i~;o;
+;o; 	;"navbar-height;"navbar_height;i~;	{ ;:	plus;i~;o; 	;"navbar-padding-y;"navbar_padding_y;i~;	@U;	@U;[ ;	@o;
+;0;"S/* Add the navbar to the list of the selectors of the container's children. */;i;i ;[ ;	@;[ o;;"container-children;0;i{;o;
+;[o; 	;"container-children;"container_children;i{;	{ o; 	;"navbar-selector;"navbar_selector;i{;	@e;"append;i{;	@e;{ ;[ ;	@o;
+;0;"ä/* #{} interpolation doesn't work when converting lists into selectors, so
+ * convert the list into an unquoted string before using it. */;i~;i ;	[ ;@;[ o;;"string;0;iÄ;o;;F;iÄ;{ ;	[ ;@o:Sass::Tree::EachNode:	@var"
+child:
+@listo;	;"container-children;"container_children;iÅ;{ ;iÅ;T;	[u;$G[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	:
+@name"string:@underscored_name"string:
+@lineiÇ:@options{ :@operator:eq;
+iÇ:@operand2o:Sass::Script::Bool:@valueF;
+iÇ;@
+;@
+u:Sass::Tree::IfNodeÆ[00[o:Sass::Tree::VariableNode:
+@name"string:@guarded0:
+@lineiÜ:
+@expro:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Operation
+:@operand1o;
+;o:Sass::Script::Variable	;"string:@underscored_name"string;iÜ:@options{ :@operator:	plus;iÜ:@operand2o:Sass::Script::String	:@value", ;iÜ:
+@type:string;@;@;;;iÜ;o;	;"
+child;"
+child;iÜ;@;@;"unquote;iÜ;@:@keywords{ :@children[ ;{ [o:Sass::Tree::VariableNode;"string:@guarded0;
+iÉ:
+@expro:Sass::Script::Funcall
+:
+@args[o;	;"
+child;	"
+child;
+iÉ;{ ;"unquote;
+iÉ;@:@keywords{ :@children[ ;{ ;@o;;"container-children;0;iâ;o;	;"string;"string;iâ;{ ;	[ ;@o;
+;0;"$/* Iterate over each column. */;iã;i ;	[ ;@;[ o;&;'"column;(o;	;"selectors;"selectors;iå;{ ;iå;T;	[o;
+;0;"/* Number the columns. */;iç;i ;	[ ;@;[ o;;"col;0;ié;o:Sass::Script::Operation
+:@operand1o;	;"col;"col;ié;{ :@operator:	plus;ié:@operand2o; ;!@H;"[ ;i;ié;#"1;@;@;	[ ;@o;
+;0;"O/* Find the width, floating direction and gutter of the current column. */;iè;i ;	[ ;@;[ o;;"
+width;0;iê;o:Sass::Script::Funcall
+;[o;	;"widths;"widths;iê;{ o;	;"col;"col;iê;@;"nth;iê;@:@keywords{ ;	[ ;@u;$Ÿ[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	:
+@name"col:@underscored_name"col:
+@lineië:@options{ :@operator:lte;
+ië:@operand2o:Sass::Script::Funcall
+:
+@args[o;	;"leading-direction;	"leading_direction;
+ië;@
+;"length;
+ië;@
+:@keywords{ ;@
+0[o:Sass::Tree::VariableNode;"
+float:@guarded0;
+ií:
+@expro;
+;[o;	;"leading-direction;	"leading_direction;
+ií;{ o;	;"col;	"col;
+ií;@;"nth;
+ií;@;{ :@children[ ;{ u;$“[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	:
+@name"col:@underscored_name"col:
+@lineiî:@options{ :@operator:lte;
+iî:@operand2o:Sass::Script::Funcall
+:
+@args[o;	;"leading-gutters;	"leading_gutters;
+iî;@
+;"length;
+iî;@
+:@keywords{ ;@
+0[o:Sass::Tree::VariableNode;"gutter:@guarded0;
+iï:
+@expro;
+;[o;	;"leading-gutters;	"leading_gutters;
+iï;{ o;	;"col;	"col;
+iï;@;"nth;
+iï;@;{ :@children[ ;{ o;
+;0;"W/* Calculate the left/right padding as it affects the true width of the column. */;ió;i ;	[ ;@;[ u;$≥	[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	:
+@name"col:@underscored_name"col:
+@lineiò:@options{ :@operator:lte;
+iò:@operand2o:Sass::Script::Funcall
+:
+@args[o;	;"padding;	"padding;
+iò;@
+;"length;
+iò;@
+:@keywords{ ;@
+0[	o:Sass::Tree::VariableNode;"padding-values:@guarded0;
+iô:
+@expro;
+;[o;	;"padding;	"padding;
+iô;{ o;	;"col;	"col;
+iô;@;"nth;
+iô;@;{ :@children[ ;{ u:Sass::Tree::IfNode«[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"padding-values:@underscored_name"padding_values:
+@lineiö:@options{ ;
+"type_of;iö;@:@keywords{ :@operator:neq;iö:@operand2o:Sass::Script::String	:@value"	list;iö:
+@type:identifier;@;@0[o:Sass::Tree::VariableNode;
+"padding-values:@guarded0;iõ:
+@expro;		;
+"padding-values;"padding_values;iõ;{ :@children[ ;{ o;;"padding-x;0;
+iù;o; 
+;o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei;
+iù:@original"2;{ ;:
+times;
+iù;o;
+;[o;	;"padding-values;	"padding_values;
+iù;@*o;;@';[ ;i;
+iù;"1;@*;"nth;
+iù;@*;{ ;@*;[ ;@!u;	[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"padding-values:@underscored_name"padding_values:
+@lineiû:@options{ ;
+"length;iû;@:@keywords{ :@operator:eq;iû:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei	;iû:@original"4;@;@u:Sass::Tree::IfNodeS[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Funcall
+:
+@args[o:Sass::Script::Variable	:
+@name"padding-values:@underscored_name"padding_values:
+@linei°:@options{ ;
+"length;i°;@:@keywords{ :@operator:gt;i°:@operand2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ :@valuei;i°:@original"1;@;@0[o:Sass::Tree::VariableNode;
+"padding-x:@guarded0;i¢:
+@expro; 
+;o;;@;[ ;i;i¢;"2;{ ;:
+times;i¢;o;
+;[o;		;
+"padding-values;"padding_values;i¢;@o;;@;[ ;i;i¢;"2;@;
+"nth;i¢;@;{ ;@:@children[ ;{ [o:Sass::Tree::VariableNode;
+"padding-x:@guarded0;iü:
+@expro; 
+;o;
+;[o;		;
+"padding-values;"padding_values;iü;{ o;;@;[ ;i;iü;"2;@;
+"nth;iü;@;{ ;:	plus;iü;o;
+;[o;		;
+"padding-values;"padding_values;iü;@o;;@;[ ;i	;iü;"4;@;
+"nth;iü;@;{ ;@:@children[ ;{ o;
+;0;"ø/* If the column is floating from the left, determine the distance from the
+ * container's left edge to the column's left edge ($left-fill) and to the
+ * column's right edge ($left-reset). */;i•;i ;	[ ;@;[ u;$Û	[o:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	:
+@name"
+float:@underscored_name"
+float:
+@linei®:@options{ :@operator:eq;
+i®:@operand2o:Sass::Script::String	:@value"	left;
+i®:
+@type:identifier;@
+;@
+u:Sass::Tree::IfNodeº[00[
+o:Sass::Tree::VariableNode:
+@name"right-fill:@guarded0:
+@linei≥:
+@expro:Sass::Script::Operation
+:@operand1o:Sass::Script::Variable	;"right-fill:@underscored_name"right_fill;i≥:@options{ :@operator:	plus;i≥:@operand2o;	;"gutter;"gutter;i≥;@;@:@children[ ;{ o; ;"right-reset;0;i¥;	o;
+
+;o;
+
+;o:!Sass::Script::UnaryOperation	:@operando;	;"right-fill;"right_fill;i¥;{ ;:
+minus;i¥;@;;;i¥;o;	;"padding-x;"padding_x;i¥;@;@;;;i¥;o;	;"
+width;"
+width;i¥;@;@;[ ;@o; ;"margin;0;iµ;	o:Sass::Script::List	:@separator:
+space:@value[	o;	;"navbar-true-height;"navbar_true_height;iµ;{ o;	;"right-fill;"right_fill;iµ;@*o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i ;iµ:@original"0;@*o;	;"right-reset;"right_reset;iµ;@*;iµ;@*;[ ;@o:Sass::Tree::CommentNode:
+@loud0;"S/* The next column needs to know how much the previous columns have filled. */;i∂:@silenti ;[ ;@:@lines[ o; ;"right-fill;0;i∑;	o;
+
+;o;
+
+;o;	;"right-fill;"right_fill;i∑;{ ;;;i∑;o;	;"
+width;"
+width;i∑;@A;@A;;;i∑;o;	;"padding-x;"padding_x;i∑;@A;@A;[ ;@[
+o:Sass::Tree::VariableNode;"left-fill:@guarded0;
+i©:
+@expro; 
+;o;	;"left-fill;	"left_fill;
+i©;{ ;:	plus;
+i©;o;	;"gutter;	"gutter;
+i©;@;@:@children[ ;{ o;;"left-reset;0;
+i™;o; 
+;o; 
+;o:!Sass::Script::UnaryOperation	:@operando;	;"left-fill;	"left_fill;
+i™;{ ;:
+minus;
+i™;@#;;;
+i™;o;	;"padding-x;	"padding_x;
+i™;@#;@#;;;
+i™;o;	;"
+width;	"
+width;
+i™;@#;@#;[ ;@o;;"margin;0;
+i´;o:Sass::Script::List	:@separator:
+space;[	o;	;"navbar-true-height;	"navbar_true_height;
+i´;{ o;	;"left-reset;	"left_reset;
+i´;@2o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i ;
+i´:@original"0;@2o;	;"left-fill;	"left_fill;
+i´;@2;
+i´;@2;[ ;@o:Sass::Tree::CommentNode:
+@loud0;"S/* The next column needs to know how much the previous columns have filled. */;
+i¨:@silenti ;[ ;@:@lines[ o;;"left-fill;0;
+i≠;o; 
+;o; 
+;o;	;"left-fill;	"left_fill;
+i≠;{ ;;;
+i≠;o;	;"
+width;	"
+width;
+i≠;@I;@I;;;
+i≠;o;	;"padding-x;	"padding_x;
+i≠;@I;@I;[ ;@o;
+;0;"&/* Apply rules to the columns. */;i∫;i ;	[ ;@;[ o:Sass::Tree::RuleNode:
+@rule[o;	;"column;"column;iª;{ ;iª;T;	[
+o:Sass::Tree::PropNode;["
+float:@prop_syntax:new;o;	;"
+float;"
+float;iº;{ ;iº;	[ :
+@tabsi ;@o;2;["
+width;3;4;o;	;"
+width;"
+width;iΩ;{ ;iΩ;	[ ;5i ;@o;2;["margin;3;4;o;	;"margin;"margin;iæ;{ ;iæ;	[ ;5i ;@o;2;["padding;3;4;o;	;"padding-values;"padding_values;iø;{ ;iø;	[ ;5i ;@o;2;["border;3;4;o;;"0 !important;;%;i¿;	[ ;5i ;@;5i ;@;@o;
+;0;"(/* Apply rules to the container. */;iƒ;i ;	[ ;@;[ o;2;["position;3;4;o;;"relative;;%;i≈;	[ ;5i ;@o;
+;0;"%/* Apply rules to the navbar. */;i«;i ;	[ ;@;[ u;$™[o:Sass::Script::Variable	:
+@name"navbar-selector:@underscored_name"navbar_selector:
+@linei»:@options{ 0[o:Sass::Tree::RuleNode:
+@rule[o; 	;"navbar-selector;"navbar_selector;i…;	{ ;i…:@has_childrenT:@children[
+o:Sass::Tree::PropNode;["
+float:@prop_syntax:new:@valueo; 	;"
+float;"
+float;i ;	{ ;i ;[ :
+@tabsi ;	{ o;;["height;;;o; 	;"navbar-height;"navbar_height;iÀ;	{ ;iÀ;[ ;i ;	@o;;["margin;;;o:Sass::Script::List	:@separator:
+space;[	o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i ;iÃ:@original"0;	{ o; 	;"navbar-reset;"navbar_reset;iÃ;	@,o;;@);[ ;i ;iÃ;"0;	@,o; 	;"navbar-leading-gutter;"navbar_leading_gutter;iÃ;	@,;iÃ;	@,;iÃ;[ ;i ;	@o;;["
+width;;;o; 	;"navbar-width;"navbar_width;iÕ;	{ ;iÕ;[ ;i ;	@o;;["padding;;;o; 	;"navbar-padding;"navbar_padding;iŒ;	{ ;iŒ;[ ;i ;	@;i ;	@o;
+;0;"@/* Prevent overflowing content from breaking the layout. */;i“;i ;	[ ;@;[ o;0;1[o;	;"container-children;"container_children;i”;{ ;i”;T;	[	o;2;["overflow;3;4;o;;"visible;;%;i‘;	[ ;5i ;@o;2;["word-wrap;3;4;o;;"break-word;;%;i’;	[ ;5i ;@o;
+;0;"%/* A very nice CSS3 property. */;i’;i ;	[ ;@;[ u;$º[o:Sass::Script::Variable	:
+@name"legacy-support-for-ie6:@underscored_name"legacy_support_for_ie6:
+@linei◊:@options{ 0[o:Sass::Tree::RuleNode:
+@rule[".ie6 &:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" :@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence;@;[o:Sass::Selector::Class;["ie6;@;iÿ;iÿo;;@;[o:Sass::Selector::Parent;@;iÿ;iÿ;iÿ;iÿ:@has_childrenT:@children[
+o:Sass::Tree::PropNode;["display:@prop_syntax:new:@valueo:Sass::Script::String;"inline:
+@type:identifier;iŸ;[ :
+@tabsi ;	{ o:Sass::Tree::CommentNode:
+@loud0;"</* display inline or double your floated margin! [1] */;iŸ:@silenti ;[ ;	@":@lines[ o;;["overflow;;;o;;"hidden;;;i⁄;[ ;i ;	@"o;;0;"M/* in IE6, overflow auto is broken [2] and so is overflow visible [3] */;i⁄; i ;[ ;	@";![ o;;["overflow-y;;;o;;"visible;;;i€;[ ;i ;	@";i ;	@";5i ;@;@o;
+;0;" /* REFERENCES
+ *
+ * 1. http://www.positioniseverything.net/explorer/doubled-margin.html
+ * 2. http://browservulsel.blogspot.com/2005/04/ie-overflow-auto-scrollbar-overlap.html
+ * 3. http://www.howtocreate.co.uk/wrongWithIE/?chapter=overflow%3Avisible%3B */;i·;i ;	[ ;@;[ ;@
