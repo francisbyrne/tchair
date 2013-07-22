@@ -59,10 +59,10 @@ body {
 
   /* Header */
   .l-branding {
-    @include span-columns(3, 12);
+    @include span-columns(4, 12);
   }
   .l-region--navigation {
-    @include span-columns(6, 12);
+    @include span-columns(5, 12);
   }
   .l-region--header {
     @include span-columns(3 omega, 12);

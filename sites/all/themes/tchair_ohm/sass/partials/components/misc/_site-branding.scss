@@ -6,7 +6,6 @@
   @include clearfix(true);
 }
 
-.site-branding__name,
 .site-branding__logo {
   display: block;
   float: left;
@@ -14,14 +13,19 @@
 
 .site-branding__logo {
   width: 50px;
+  height: 72px;
   margin-right: $horz-spacing-unit;
 }
 .site-branding__name {
   @extend .beta;
   color: #FFF;
   text-decoration: none;
+  margin
 
   &:hover {
     color: $dark-blue;
   }
+}
+.site-branding__slogan {
+  font-size: 1.2em;
 }
