@@ -2,7 +2,7 @@
  * $SITE-BRANDING
  */
 .site-branding {
-  padding: 1em 0;
+  padding: 0.5em 0;
   @include clearfix(true);
 }
 
@@ -12,15 +12,14 @@
 }
 
 .site-branding__logo {
-  width: 72px;
-  height: 79px;
+  width: 60px;
+  height: 66px;
   margin-right: $horz-spacing-unit;
 }
 .site-branding__name {
   @extend .beta;
   color: #FFF;
   text-decoration: none;
-  margin
 
   &:hover {
     color: $dark-blue;
@@ -28,4 +27,11 @@
 }
 .site-branding__slogan {
   font-size: 1.2em;
+  display: none;
+}
+
+@include at-breakpoint($tab) {
+  .site-branding__slogan {
+    display: block;
+  }
 }

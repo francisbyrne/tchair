@@ -588,7 +588,7 @@ img, media {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\000034}}
 .site-branding {
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\000039}}
@@ -599,8 +599,8 @@ img, media {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000314}}
 .site-branding__logo {
-  width: 72px;
-  height: 79px;
+  width: 60px;
+  height: 66px;
   margin-right: 1em;
 }
 
@@ -609,17 +609,23 @@ img, media {
   color: #FFF;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000325}}
-margin
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000324}}
 .site-branding__name:hover {
   color: #064771;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000328}}
 .site-branding__slogan {
   font-size: 1.2em;
+  display: none;
 }
 
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000334}}
+  .site-branding__slogan {
+    display: block;
+  }
+}
 /**
  * $SECTION-TITLE
  */
@@ -814,26 +820,46 @@ html.js fieldset.collapsed {
 /**
  * MAIN-MENU
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000036}}
+.block--menu.block--system-main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000039}}
 .block--menu.block--system-main-menu ul li {
   list-style: none;
   float: left;
-  padding: 33px 1em;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 1em;
+  -moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
+@media (min-width: 44em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000039}}
-.block--menu.block--system-main-menu ul li:hover {
-  border-bottom: 5px solid #e4621c;
+  .block--menu.block--system-main-menu ul li {
+    height: 80px;
+    line-height: 80px;
+  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000323}}
+.block--menu.block--system-main-menu ul li:hover {
+  border-bottom: 0.5em solid #e4621c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000325}}
 .block--menu.block--system-main-menu ul li:hover a {
   color: #e4621c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000331}}
 .block--menu.block--system-main-menu a {
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.3em;
   color: #fff;
+  height: 100%;
+  display: block;
 }
 
 /**

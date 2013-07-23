@@ -1,15 +1,30 @@
 /**
  * MAIN-MENU
  */
+
 .block--menu.block--system-main-menu {
-  ul li {
-    list-style: none;
-    float: left;
-    padding: $vert-spacing-unit*2 - 3px $horz-spacing-unit;
-    &:hover{
-      border-bottom: 5px solid $orange;
-      a {
-        color: $orange;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      float: left;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 $horz-spacing-unit;
+      -moz-transition: all 0.1s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      @include at-breakpoint($tab) {
+        height: 80px;
+        line-height: 80px;
+      }
+      &:hover{
+        border-bottom: 0.5em solid $orange;
+        a {
+          color: $orange;
+        }
       }
     }
   }
@@ -18,5 +33,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.3em;
     color: #fff;
+    height: 100%;
+    display: block;
   }
 }
