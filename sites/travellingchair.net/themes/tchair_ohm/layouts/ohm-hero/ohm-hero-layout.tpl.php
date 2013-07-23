@@ -20,14 +20,14 @@
   <div class="l-main l-constrained">
 
   <?php print render($page['hero']); ?>
-  <?php print $breadcrumb; ?>
+  <?php // print $breadcrumb; ?>
 
   <?php if (!empty($page['highlighted'])): ?>
     <div class="l-highlighted-wrapper">
       <?php print render($page['highlighted']); ?>
     </div>
   <?php endif; ?>
-  
+
     <a id="main-content"></a>
     <?php print render($tabs); ?>
     <?php print $messages; ?>

@@ -67,7 +67,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000333}}
 .l-region--navigation a#mob-menu {
   float: right;
-  width: 60px;
+  width: 100%;
   height: 80px;
   border-left: 1px solid #064771;
   background: url('../../../images/menu-icon.png?1374586247') center center no-repeat;

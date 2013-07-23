@@ -13,14 +13,13 @@
   .views-submit-button {
     margin-top: 1em;
   }
+  .button {
+    text-align: center;
+  }
   @include at-breakpoint($tab) {
     width: 80%;
     margin: 0 auto;
     padding: 0;
-
-    .button {
-      text-align: center;
-    }
 
     .views-exposed-form .views-exposed-widget:not(.views-submit-button) {
       @include span-columns(3, 12);

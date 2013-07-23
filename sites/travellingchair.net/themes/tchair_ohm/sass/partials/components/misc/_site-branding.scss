@@ -14,7 +14,7 @@
 .site-branding__logo {
   width: 60px;
   height: 66px;
-  margin-right: $horz-spacing-unit;
+  margin-right: $horz-spacing-unit /2;
 }
 .site-branding__name {
   @extend .beta;

@@ -53,7 +53,7 @@ h1, .alpha {
   font-weight: 700;
 }
 h2, .beta {
-  @include font-size(30px);
+  @include font-size(28px);
   font-weight: 700;
   color: $mid-blue;
   @include at-breakpoint($tab) {

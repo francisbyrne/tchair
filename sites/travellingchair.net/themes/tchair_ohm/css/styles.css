@@ -141,8 +141,8 @@ h1, .alpha {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000355}}
 h2, .beta, .site-branding__name {
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #077dc3;
 }
@@ -608,7 +608,7 @@ img, media {
 .site-branding__logo {
   width: 60px;
   height: 66px;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/misc\/_site-branding\.scss}line{font-family:\0000319}}
@@ -692,6 +692,10 @@ img, media {
 .views-exposed-form-search-page .views-submit-button {
   margin-top: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000316}}
+.views-exposed-form-search-page .button {
+  text-align: center;
+}
 @media (min-width: 44em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\000034}}
   .views-exposed-form-search-page {
@@ -699,22 +703,18 @@ img, media {
     margin: 0 auto;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000321}}
-  .views-exposed-form-search-page .button {
-    text-align: center;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000324}}
   .views-exposed-form-search-page .views-exposed-form .views-exposed-widget:not(.views-submit-button) {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000328}}
   .views-exposed-form-search-page .views-widget-filter-location_value label {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000331}}
   .views-exposed-form-search-page .views-exposed-form .views-exposed-widget.views-submit-button {
     width: 15.25424%;
     float: left;
@@ -725,7 +725,7 @@ img, media {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000340}}
 .views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
   display: none;
 }
