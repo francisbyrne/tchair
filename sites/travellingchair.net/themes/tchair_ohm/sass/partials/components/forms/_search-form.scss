@@ -13,9 +13,6 @@
   .views-submit-button {
     margin-top: 1em;
   }
-  .views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
-    display: none;
-  }
   @include at-breakpoint($tab) {
     width: 80%;
     margin: 0 auto;
@@ -39,4 +36,8 @@
       margin-top: 0;
     }
   }
+}
+
+.views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
+  display: none;
 }
