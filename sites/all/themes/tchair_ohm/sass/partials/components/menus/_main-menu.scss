@@ -2,5 +2,21 @@
  * MAIN-MENU
  */
 .block--menu.block--system-main-menu {
-  @include nav-menu;
+  ul li {
+    list-style: none;
+    float: left;
+    padding: $vert-spacing-unit*2 - 3px $horz-spacing-unit;
+    &:hover{
+      border-bottom: 5px solid $orange;
+      a {
+        color: $orange;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+  }
 }

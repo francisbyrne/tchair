@@ -814,44 +814,22 @@ html.js fieldset.collapsed {
 /**
  * MAIN-MENU
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000035}}
 .block--menu.block--system-main-menu ul li {
   list-style: none;
   float: left;
   padding: 33px 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\000039}}
 .block--menu.block--system-main-menu ul li:hover {
   border-bottom: 5px solid #e4621c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000311}}
 .block--menu.block--system-main-menu ul li:hover a {
   color: #e4621c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_main-menu\.scss}line{font-family:\0000316}}
 .block--menu.block--system-main-menu a {
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.3em;
-  color: #fff;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000032}}
-.block--system-user-menu.block--menu ul li {
-  list-style: none;
-  float: left;
-  padding: 33px 1em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000036}}
-.block--system-user-menu.block--menu ul li:hover {
-  border-bottom: 5px solid #e4621c;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\000038}}
-.block--system-user-menu.block--menu ul li:hover a {
-  color: #e4621c;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/components\/menus\/_nav-menu\.scss}line{font-family:\0000313}}
-.block--system-user-menu.block--menu a {
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.3em;

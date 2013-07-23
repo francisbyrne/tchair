@@ -57,13 +57,13 @@ body {
 
   /* Header */
   .l-branding {
-    @include span-columns(4, 12);
+    @include span-columns(6, 12);
   }
   .l-region--navigation {
     @include span-columns(4, 12);
   }
   .l-region--header {
-    @include span-columns(4 omega, 12);
+    @include span-columns(6 omega, 12);
   }
 
   /* Sidebars */

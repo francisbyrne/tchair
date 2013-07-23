@@ -12,7 +12,7 @@
           <h2 class="site-branding__slogan"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
       </div>
-      <?php print render($page['navigation']); ?>
+      <?php //print render($page['navigation']); ?>
       <?php print render($page['header']); ?>
     </div>
   </header>
