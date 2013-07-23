@@ -21,6 +21,9 @@ regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 
+; Scripts
+scripts[] = js/tchair.js
+
 ; Settings
 
 ; Information added by drupal.org packaging script on 2013-07-12

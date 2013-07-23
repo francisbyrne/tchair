@@ -28,7 +28,7 @@ function _ohm_is_menu_block($block) {
  *   The name of the template being rendered ("html" in this case.)
  */
 /* -- Delete this line if you want to use this function */
-function tchair_preprocess_html(&$variables, $hook) {
+function tchair_ohm_preprocess_html(&$variables, $hook) {
   
   drupal_add_js("http://maps.google.com/maps/api/js?libraries=places&sensor=false&region=AU", "external");
   drupal_add_js(path_to_theme()."/js/tchair.js");
@@ -63,7 +63,7 @@ function tchair_preprocess_html(&$variables, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function */
-function tchair_preprocess_page(&$variables, $hook) {
+function tchair_ohm_preprocess_page(&$variables, $hook) {
   global $user;
   
   $variables['scripts'] = drupal_get_js();
@@ -78,7 +78,7 @@ function tchair_preprocess_page(&$variables, $hook) {
 }
 // */
 
-function tchair_preprocess_user_profile(&$variables) {
+function tchair_ohm_preprocess_user_profile(&$variables) {
 }
 
 /**
@@ -90,7 +90,7 @@ function tchair_preprocess_user_profile(&$variables) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function */
-function tchair_preprocess_node(&$variables, $hook) {
+function tchair_ohm_preprocess_node(&$variables, $hook) {
 
   $variables['title'] = NULL;
 
@@ -149,7 +149,7 @@ function tchair_preprocess_block(&$variables, $hook) {
 }
 // */
 
-function tchair_preprocess_rate_template_emotion(&$variables) {
+function tchair_ohm_preprocess_rate_template_emotion(&$variables) {
 
 //dsm($variables);  
   $total_up = (int)$variables['results']['options']['1'];
