@@ -3,6 +3,7 @@
  */
 .breadcrumb {
   @extend %hlist;
+  padding: 0.5em 1em;
 
   li {
     padding-right: 0.4em;

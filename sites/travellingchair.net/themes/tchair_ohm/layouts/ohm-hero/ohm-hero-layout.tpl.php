@@ -12,23 +12,24 @@
           <h2 class="site-branding__slogan"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
       </div>
-      <?php //print render($page['navigation']); ?>
+      <?php print render($page['navigation']); ?>
       <?php print render($page['header']); ?>
     </div>
   </header>
 
+  <div class="l-main l-constrained">
+
   <?php print render($page['hero']); ?>
+  <?php print $breadcrumb; ?>
 
   <?php if (!empty($page['highlighted'])): ?>
     <div class="l-highlighted-wrapper">
       <?php print render($page['highlighted']); ?>
     </div>
   <?php endif; ?>
-
-  <div class="l-main l-constrained">
+  
     <a id="main-content"></a>
     <?php print render($tabs); ?>
-    <?php print $breadcrumb; ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
 

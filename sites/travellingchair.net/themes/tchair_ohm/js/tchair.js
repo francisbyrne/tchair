@@ -1,8 +1,22 @@
 (function ($) {
 
+	// return a jQuery button object
+	Drupal.theme.prototype.button = function (name, value) {
+	  return $('<button type="button" name="' + name + '" value="' + value + '">' + name + '</button>');
+	};
+
+	// convert a select option into a jQuery button
+	Drupal.theme.prototype.optionButton = function (selector) {
+		var option = $(selector);
+		return Drupal.theme.button( option.text(), option.val() );
+	};
+
+	Drupal.theme.isMobile = function() {
+
+	};
+
 	Drupal.behaviors.tchair = {
 		attach: function (context, settings) {
-
 
 			/**
 			 * Mobile Menu
@@ -11,6 +25,10 @@
 				window.location = '/'+$(this).val()+'?page='+$(this).val();
 			});
 
+			$('#mob-menu').click(function(e) {
+				e.preventDefault();
+				$('.l-region--header').toggle();
+			})
 
 			/**
 			 * Alter user profile form 
@@ -24,8 +42,6 @@
 				Drupal.profileSetLoc(userCity);
 				return false;
 			});
-				
-
 			
 			/**
 			 * Alter search profile form
@@ -61,11 +77,6 @@
 			var latField = $("#edit-distance-latitude");
 			var lngField = $("#edit-distance-longitude");
 			var distanceFilter = $("#views-exposed-form-search-page #edit-distance-wrapper, #views-exposed-form-search-page-2 #edit-distance-wrapper");
-			
-			// Set distance to 15km
-//			$('#edit-distance-search-distance').val(15);
-
-
 
 			filterLoc = decodeURI(Drupal.getUrlVars()['filter_location_value']).replace(/\+/i, ' ' );
 			filterLoc = filterLoc.replace('undefined', '');
@@ -80,7 +91,6 @@
 
 			$('#filter-location-value').focusout(function(){
 				Drupal.addr2latlng($(this).val(), latField, lngField);
-
 			});
 
 			//No enter key allowed on the Near field
@@ -140,24 +150,13 @@
 			var allSubcategory = searchView.find(".views-exposed-widget:has(label:contains('Subcategory'))");
 			
 			// disabed Select
-			var diabledSelect = searchView.find(".views-widget-filter-field_place_to_eat_value_1");
-			diabledSelect.find("select").attr('disabled', 'disabled');
+			var disabledSelect = searchView.find(".views-widget-filter-field_place_to_eat_value_1");
+			disabledSelect.find("select").attr('disabled', 'disabled');
 			
 
 			//Hide all Subcategory filter initially, but show disabled select
 			allSubcategory.hide(); 
-/*						
-			hideDiabledSelect = false;
 
-			for (i=1; i<=16; i++){
-				if(Drupal.getUrlVars()['delta_'+i] && Drupal.getUrlVars()['delta_'+i] != "All") {
-					searchView.find(".views-widget-filter-delta_"+i).show();
-					hideDiabledSelect = true;
-				}
-			}	
-			
-			if (!hideDiabledSelect) diabledSelect.show();			
-*/
 			var subcategory = {};
 			subcategory[1] = 'field_place_to_eat_value';
 			subcategory[4] = 'field_evening_out_value';
@@ -175,13 +174,13 @@
 			if(Drupal.getUrlVars()['field_category_tid'] && Drupal.getUrlVars()['field_category_tid'] != 'All'){
 				searchView.find(".views-widget-filter-"+subcategory[Drupal.getUrlVars()['field_category_tid']]).show();
 			} else {
-				diabledSelect.show();
+				disabledSelect.show();
 			}
 			
 			
 			
 			categoryList.change(function(){
-				if($(this).val() == "All") { allSubcategory.hide(); allSubcategory.find('select').val('All'); diabledSelect.show();}
+				if($(this).val() == "All") { allSubcategory.hide(); allSubcategory.find('select').val('All'); disabledSelect.show();}
 				else { 
 					allSubcategory.hide(); 
 					allSubcategory.find('select').val('All');

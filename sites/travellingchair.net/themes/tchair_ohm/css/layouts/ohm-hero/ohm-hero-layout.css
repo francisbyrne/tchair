@@ -4,7 +4,7 @@
  * Styling of the "simple" layout demonstrating the Compass grid extension Susy
  * and building mobile first layouts.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/partials\/utility\/abstractions\/_grid\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/utility\/abstractions\/_grid\.scss}line{font-family:\000039}}
 .l-constrained {
   *zoom: 1;
   max-width: 1190px;
@@ -29,42 +29,71 @@
 /**
  * $HLIST
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\000039}}
 body {
   background: transparent url('../../../images/diagonal.png?1373657298') left top repeat;
 }
 
 /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000318}}
 .l-header {
   background-color: #52b1ea;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000322}}
-.l-region--header .block {
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000323}}
+.l-branding {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000326}}
+.l-region--header {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: none;
+  border-top: 1px solid #064771;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000331}}
+.l-region--navigation {
+  width: 23.72881%;
   float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000333}}
+.l-region--navigation a#mob-menu {
+  float: right;
+  width: 60px;
+  height: 80px;
+  border-left: 1px solid #064771;
+  background: url('../../../images/menu-icon.png?1374586247') center center no-repeat;
 }
 
 /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000343}}
 .l-highlighted-wrapper {
   padding: 18px 0;
   background: #FFF;
+  margin-bottom: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000348}}
 .l-region--help {
   margin-bottom: 18px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000351}}
 .l-main {
-  margin-top: 36px;
+  margin-top: 0;
   margin-bottom: 36px;
 }
 
 /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000358}}
 .l-region--sidebar-first,
 .l-region--sidebar-second {
   background-color: #FFF;
@@ -72,49 +101,56 @@ body {
 }
 
 /* Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000364}}
 .l-footer-wrapper {
   padding: 18px 0;
   background: #FFF;
+  display: none;
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000371}}
   .l-constrained {
     max-width: 1190px;
   }
 
   /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000376}}
   .l-branding {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000379}}
   .l-region--navigation {
     width: 0%;
     float: left;
     margin-right: 1.69492%;
+    display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000383}}
   .l-region--header {
     width: 40.67797%;
     float: right;
     margin-right: 0;
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000386}}
+  .l-region--header .block {
+    float: right;
   }
 
   /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000394}}
   .two-sidebars .l-content,
   .one-sidebar .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000398}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second,
   .one-sidebar .l-region--sidebar-first,
@@ -124,21 +160,26 @@ body {
     margin-right: 0;
     clear: right;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003103}}
+  .l-footer-wrapper {
+    display: block;
+  }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003109}}
   .l-constrained {
     max-width: 1190px;
   }
 
   /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003115}}
   .one-sidebar .l-content {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003118}}
   .one-sidebar .l-region--sidebar-first {
     width: 32.20339%;
     float: left;
@@ -148,13 +189,13 @@ body {
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003125}}
   .two-sidebars .l-content {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003129}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second {
     width: 23.72881%;
@@ -162,7 +203,7 @@ body {
     margin-right: 1.69492%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/all\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\00003133}}
   .two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;

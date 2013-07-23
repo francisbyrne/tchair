@@ -28,10 +28,7 @@
 .site-branding__slogan {
   font-size: 1.2em;
   display: none;
-}
-
-@include at-breakpoint($tab) {
-  .site-branding__slogan {
+  @include at-breakpoint($tab) {
     display: block;
   }
 }
