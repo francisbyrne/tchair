@@ -1,9 +1,14 @@
 /**
  * $SEARCH-FORM
  */
-.search-block-form {
-  .form-text {
-    width: auto;
-    padding: 0.4em;
+.views-exposed-form-search-page {
+  input, select {
+    width: 100%;
+  }
+  .views-exposed-form .views-exposed-widget {
+    float: none;
+  }
+  .views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter {
+    display: none;
   }
 }
