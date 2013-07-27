@@ -3,6 +3,10 @@
  */
 
 .block--menu.block--system-main-menu {
+  border-top: 1px solid $dark-blue;
+  @include at-breakpoint($tab) {
+    border-top: none;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -21,9 +25,9 @@
         line-height: 80px;
       }
       &:hover{
-        border-bottom: 0.5em solid $orange;
+        border-bottom: 0.5em solid $dark-blue;
         a {
-          color: $orange;
+          color: $dark-blue;
         }
       }
     }

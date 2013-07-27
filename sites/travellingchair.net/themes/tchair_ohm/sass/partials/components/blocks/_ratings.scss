@@ -1,0 +1,89 @@
+.views-row {
+  @include clearfix(true);
+  border-bottom: 1px solid $light-grey;
+  .field {
+    margin-bottom: 0.5em;
+  }
+  .field--name-field-category {
+    width: 32px;
+    float: left;
+    .field__item {
+      margin-right: 0;
+    }
+  }
+  .group-teaser-left, .group-teaser-right {
+    margin-left: 40px;
+  }
+  .field--name-field-title {
+    @include font-size(28px);
+  }
+  .location-locations-header {
+    display: none;
+  }
+  .rate-info {
+    @include clearfix(true);
+    span.label {
+      line-height: 2em;
+      width: 5em;
+      margin-right: $horz-spacing-unit;
+      float: left;
+    }
+    .result {
+      float: left;
+      line-height: 2em;
+      .percentage-bar {
+        @include inline-block;
+        background: $red;
+        width: 10em;
+        height: 1em;
+        &.empty{
+          background-color: $pale-blue;
+        }
+        div.good{
+          display: block;
+          background: $green; 
+          height: 1em;
+        }
+      }
+    }
+  } //.rate-info
+
+
+  // Percentage bar
+  .group_visual .result{
+    background: url(../images/icon_visual.gif) left center no-repeat;
+  }
+  .group_hearing .result{
+    background: url(../images/icon_hearing.gif) left center no-repeat;
+  }
+  .group_mobility .result{
+    background: url(../images/icon_mobility.gif) left center no-repeat;
+  }
+  
+  @include at-breakpoint($tab) {
+    .field--name-field-category {
+      @include span-columns(1, 12);
+      .field__item {
+        float: right;
+      }
+    }
+    .group-teaser-left {
+      @include span-columns(5, 12);
+      margin-left: 0;
+    }
+    .group_teaser_right {
+      @include span-columns(6 omega, 12);
+      margin-left: 0;
+      margin-top: 2em;
+    }
+  }
+}
+
+@include at-breakpoint($desk) {
+  .views-row-odd {
+    @include span-columns(6, 12);
+  }
+  .views-row-even {
+    @include span-columns(6 omega, 12);
+  }
+}
