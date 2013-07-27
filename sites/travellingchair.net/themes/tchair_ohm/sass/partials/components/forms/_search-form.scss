@@ -1,7 +1,20 @@
 /**
  * $SEARCH-FORM
  */
-.views-exposed-form-search-page {
+.new-search-button {
+  display: none;
+}
+.page-search-review-result {
+  .views-exposed-form-search-page {
+    display: none;
+  }
+  .new-search-button {
+    display: block;
+    width: 10em;
+    margin: 0 auto;
+  }
+}
+.block--views-exp-search-page {
   padding: 0 1em;
   input, select, .button {
     width: 100%;
@@ -20,7 +33,6 @@
     width: 80%;
     margin: 0 auto;
     padding: 0;
-
     .views-exposed-form .views-exposed-widget:not(.views-submit-button) {
       @include span-columns(3, 12);
       float: left;
@@ -34,9 +46,11 @@
       line-height: 57px;
       margin-top: 0;
     }
+    .views-exposed-form-search-page {
+      display: block;
+    }
   }
 }
-
 .views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
   display: none;
 }

@@ -11,10 +11,6 @@
 		return Drupal.theme.button( option.text(), option.val() );
 	};
 
-	Drupal.theme.isMobile = function() {
-
-	};
-
 	Drupal.behaviors.tchair = {
 		attach: function (context, settings) {
 
@@ -101,7 +97,8 @@
 			$('#edit-submit-search').attr("disabled",true);
 			$('#edit-submit-search').before("<a id='submit' class='button' href='#'>Search</a>");
 
-			$('#submit').click(function(){		
+			$('#submit').click(function(e) {		
+				e.preventDefault();
 
 				form = $(this).parents().filter('form');
 				Drupal.addr2latlng($('#filter-location-value').val(), latField, lngField, form);
@@ -138,11 +135,19 @@
 			
 
 			
-				
 			/**
 			 * Alter search review form 
 			 */
 			var searchView = $("#views-exposed-form-search-page");
+
+			// "New Search" button on search results page
+			searchView.after(
+				'<button class="button new-search-button">New Search</button>'
+			);
+			$('.new-search-button').click( function() {
+				$('.new-search-button').toggle();
+				$('.views-exposed-form-search-page').toggle();
+			})
 		
 			//show 2nd level Category 
 			var categoryList = searchView.find("#edit-field-category-tid-wrapper select");
@@ -178,7 +183,6 @@
 			}
 			
 			
-			
 			categoryList.change(function(){
 				if($(this).val() == "All") { allSubcategory.hide(); allSubcategory.find('select').val('All'); disabledSelect.show();}
 				else { 
@@ -187,7 +191,7 @@
 					//console.log(searchView.find(".views-widget-filter-"+subcategory[$(this).val()]));
 					searchView.find(".views-widget-filter-"+subcategory[$(this).val()]).show();
 				}
-			})			
+			});
 
 
 			visualWidgets = [1, 2, 3];
