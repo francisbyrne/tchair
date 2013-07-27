@@ -49,7 +49,7 @@ h6, .zeta {
 }
 
 h1, .alpha {
-  @include font-size(48px);
+  @include font-size(40px);
   font-weight: 700;
   @include at-breakpoint($tab) {
     @include font-size(55px);
