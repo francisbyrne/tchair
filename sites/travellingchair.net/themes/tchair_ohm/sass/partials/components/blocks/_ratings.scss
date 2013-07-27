@@ -6,16 +6,14 @@
   }
   .field--name-field-category {
     width: 32px;
-    float: left;
+    position: absolute;
     .field__item {
       margin-right: 0;
     }
   }
-  .group-teaser-left, .group-teaser-right {
-    margin-left: 40px;
-  }
   .field--name-field-title {
     @include font-size(28px);
+    margin-left: 40px;
   }
   .location-locations-header {
     display: none;
@@ -61,7 +59,15 @@
   }
   
   @include at-breakpoint($tab) {
+    .group-teaser-left, .group-teaser-right {
+      margin-left: 40px;
+    }
+    .field--name-field-title {
+      @include font-size(28px);
+      margin-left: 0;
+    }
     .field--name-field-category {
+      position: static;
       @include span-columns(1, 12);
       .field__item {
         float: right;
