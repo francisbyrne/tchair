@@ -418,26 +418,25 @@ tr.even {
 .form-item .form-text,
 .form-item .form-textarea {
   width: 100%;
-  padding: 1em;
   background-color: #FFF;
   border: 1px solid #dddddd;
   color: #6a7076;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000319}}
 .form-item .description {
   margin-top: 0.2em;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000328}}
 .container-inline .form-select,
 .container-inline .form-text,
 .container-inline .form-textarea {
   width: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/base\/forms\/_form-items\.scss}line{font-family:\0000336}}
 select:focus,
 input:focus,
 textarea:focus {
@@ -699,46 +698,46 @@ img, media {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000317}}
-.block--views-exp-search-page {
+.block--views-exp-search-page, .block--views-exp-search-page-2 {
   padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000319}}
-.block--views-exp-search-page input, .block--views-exp-search-page select, .block--views-exp-search-page .button {
+.block--views-exp-search-page input, .block--views-exp-search-page select, .block--views-exp-search-page .button, .block--views-exp-search-page-2 input, .block--views-exp-search-page-2 select, .block--views-exp-search-page-2 .button {
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000322}}
-.block--views-exp-search-page .views-exposed-form .views-exposed-widget {
+.block--views-exp-search-page .views-exposed-form .views-exposed-widget, .block--views-exp-search-page-2 .views-exposed-form .views-exposed-widget {
   float: none;
   padding: 0.5em 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000326}}
-.block--views-exp-search-page .views-submit-button {
+.block--views-exp-search-page .views-submit-button, .block--views-exp-search-page-2 .views-submit-button {
   margin-top: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000329}}
-.block--views-exp-search-page .button {
+.block--views-exp-search-page .button, .block--views-exp-search-page-2 .button {
   text-align: center;
 }
 @media (min-width: 44em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000317}}
-  .block--views-exp-search-page {
+  .block--views-exp-search-page, .block--views-exp-search-page-2 {
     width: 80%;
     margin: 0 auto;
     padding: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000336}}
-  .block--views-exp-search-page .views-exposed-form .views-exposed-widget:not(.views-submit-button) {
+  .block--views-exp-search-page .views-exposed-form .views-exposed-widget:not(.views-submit-button), .block--views-exp-search-page-2 .views-exposed-form .views-exposed-widget:not(.views-submit-button) {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     float: left;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000340}}
-  .block--views-exp-search-page .views-widget-filter-location_value label {
+  .block--views-exp-search-page .views-widget-filter-location_value label, .block--views-exp-search-page-2 .views-widget-filter-location_value label {
     display: block;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000343}}
-  .block--views-exp-search-page .views-exposed-form .views-exposed-widget.views-submit-button {
+  .block--views-exp-search-page .views-exposed-form .views-exposed-widget.views-submit-button, .block--views-exp-search-page-2 .views-exposed-form .views-exposed-widget.views-submit-button {
     width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
@@ -747,17 +746,17 @@ img, media {
     margin-top: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000349}}
-  .block--views-exp-search-page button.new-search-button {
+  .block--views-exp-search-page button.new-search-button, .block--views-exp-search-page-2 button.new-search-button {
     display: none;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000352}}
-  .block--views-exp-search-page .views-exposed-form-search-page {
+  .block--views-exp-search-page .views-exposed-form-search-page, .block--views-exp-search-page-2 .views-exposed-form-search-page {
     display: block;
   }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_search-form\.scss}line{font-family:\0000357}}
-.views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
+.views-widget-filter-distance, .views-exposed-form-search-page .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
   display: none;
 }
 

@@ -14,7 +14,7 @@
     margin: 0 auto;
   }
 }
-.block--views-exp-search-page {
+.block--views-exp-search-page, .block--views-exp-search-page-2 {
   padding: 0 1em;
   input, select, .button {
     width: 100%;
@@ -54,6 +54,6 @@
     }
   }
 }
-.views-widget-filter-distance, .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
+.views-widget-filter-distance, .views-exposed-form-search-page .views-widget-filter-title, .checkboxFilter, [class*='views-widget-filter-field']:not([class*='views-widget-filter-field_category_tid']) {
   display: none;
 }
