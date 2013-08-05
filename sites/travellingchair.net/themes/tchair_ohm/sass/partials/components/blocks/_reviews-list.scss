@@ -1,0 +1,56 @@
+.view-search .views-row {
+  @include clearfix(true);
+  border-bottom: 1px solid $light-grey;
+  .field {
+    margin-bottom: 0.5em;
+  }
+  // category icon
+  .field--name-field-category {
+    width: 32px;
+    position: absolute;
+    .field__item {
+      margin-right: 0;
+    }
+  }
+  // review title
+  .field--name-field-title {
+    @include font-size(28px);
+    margin-left: 40px;
+  }
+  .location-locations-header {
+    display: none;
+  }
+  @include at-breakpoint($tab) {
+    .group-teaser-left, .group-teaser-right {
+      margin-left: 40px;
+    }
+    .field--name-field-title {
+      @include font-size(28px);
+      margin-left: 0;
+    }
+    .field--name-field-category {
+      position: static;
+      @include span-columns(1, 12);
+      .field__item {
+        float: right;
+      }
+    }
+    .group-teaser-left {
+      @include span-columns(5, 12);
+      margin-left: 0;
+    }
+    .group_teaser_right {
+      @include span-columns(6 omega, 12);
+      margin-left: 0;
+      margin-top: 2em;
+    }
+  }
+}
+@include at-breakpoint($desk) {
+  .view-search .views-row-odd {
+    @include span-columns(6, 12);
+  }
+  .view-search .views-row-even {
+    @include span-columns(6 omega, 12);
+  }
+}

@@ -12,6 +12,9 @@ body {
 
 .l-constrained {
   @extend %container;
+  .tabs--primary {
+    display: none; // hide edit tabs
+  }
 }
 
 /* Header */

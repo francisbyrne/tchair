@@ -1,0 +1,65 @@
+.node--location {
+  .location-locations-header {
+    display: none;
+  }
+  .group_location {
+    .field--name-field-title {
+      display: none;
+    }
+    .description {
+      @extend .beta;
+      float: left;
+    }
+    .field--name-field-edit {
+      margin-left: $horz-spacing-unit;
+      float: left;
+      a.button {
+        height: 2em;
+      }
+    }
+    .group-location-content {
+      clear: both;
+    }
+  }
+  .field--name-field-subheading {
+    @extend .gamma;
+  }
+  .group-visual .description {
+    @include prepend-icon-visual;
+  }
+  .group-hearing .description {
+    @include prepend-icon-hearing;
+  }
+  .group-mobility .description {
+    @include prepend-icon-mobility;
+  }
+  .group_mobility, .group-visual, .group-hearing {
+    clear: both;
+    margin-bottom: $vert-spacing-unit;
+    .description {
+      @extend .gamma;
+      border-bottom: 1px solid $light-grey;
+    }
+  }
+  .shade {
+    background: #000;
+  }
+}
+@include at-breakpoint($tab) {
+  .group_mobility, .group_visual, .group_hearing {
+    .rate-field-label {
+      @include rating-label;
+      width: 20em;
+    }
+    .rate-widget {
+      float: left;
+    }
+  }
+}
+
+@include at-breakpoint($desk) {
+  .field--name-field-latitude, .field--name-field-category {
+    float: left;
+    margin-right: $horz-spacing-unit;
+  }
+}

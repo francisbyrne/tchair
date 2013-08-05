@@ -27,6 +27,11 @@
 			})
 
 			/**
+			 * Change text in Edit Venue button (Dirty hack but I don't know how to change the button!)
+			 */
+			 $('#node_location_full_group_location .field--name-field-edit a').text('Edit');
+
+			/**
 			 * Alter user profile form 
 			 */
 			var userCity = $("#edit-field-user-city-und-0-value");
@@ -234,7 +239,7 @@
 			/**
 			 * Rate Widgets
 			 */
-			var rateWidget = $(".rate-widget .item-list");
+			var rateWidget = $(".rate-widget > ul");
 			var rateInfo = $(".rate-info");
 			var reviewNow = $("#review-now");
 			var location = $(".node-location .group_location");

@@ -116,7 +116,7 @@ function tch_form_location_node_form_alter(&$form, &$form_state, $form_id){
 //	$form['field_longitude']['und'][0]['value']['#type'] = "hidden";
 	
 	//Hide edit field
-	$form['field_edit']['und'][0]['value']['#default_value'] = "edit venue details and description";
+	$form['field_edit']['und'][0]['value']['#default_value'] = "edit venue";
 	$form['field_edit']['#type'] = "hidden";
 	
 	//Hide view result

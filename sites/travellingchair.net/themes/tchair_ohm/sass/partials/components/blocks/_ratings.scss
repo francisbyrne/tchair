@@ -1,97 +1,52 @@
-.views-row {
-  @include clearfix(true);
-  border-bottom: 1px solid $light-grey;
-  .field {
-    margin-bottom: 0.5em;
-  }
-  // category icon
-  .field--name-field-category {
-    width: 32px;
-    position: absolute;
-    .field__item {
-      margin-right: 0;
-    }
-  }
-  // review title
-  .field--name-field-title {
-    @include font-size(28px);
-    margin-left: 40px;
-  }
-  .location-locations-header {
-    display: none;
-  }
-  .rate-info {
-    @include clearfix(true);
-    .label {
-      line-height: 2em;
-      width: 6em;
-      margin-right: $horz-spacing-unit;
-      float: left;
-      padding-left: 2em
-    }
-    // label icons
-    .label.visual {
-      background: url(../images/icon_visual.gif) left center no-repeat;
-    }
-    .label.hearing {
-      background: url(../images/icon_hearing.gif) left center no-repeat;
-    }
-    .label.mobility {
-      background: url(../images/icon_mobility.gif) left center no-repeat;
-    }
-    // rating bar
-    .result {
-      float: left;
-      line-height: 2em;
-      .percentage-bar {
-        @include inline-block;
-        background: $red;
-        width: 10em;
-        height: 1em;
-        &.empty{
-          background-color: $pale-blue;
-        }
-        div.good{
-          display: block;
-          background: $green; 
-          height: 1em;
-        }
-      }
-    }
-  } //.rate-info
-  
-  @include at-breakpoint($tab) {
-    .group-teaser-left, .group-teaser-right {
-      margin-left: 40px;
-    }
-    .field--name-field-title {
-      @include font-size(28px);
-      margin-left: 0;
-    }
-    .field--name-field-category {
-      position: static;
-      @include span-columns(1, 12);
-      .field__item {
-        float: right;
-      }
-    }
-    .group-teaser-left {
-      @include span-columns(5, 12);
-      margin-left: 0;
-    }
-    .group_teaser_right {
-      @include span-columns(6 omega, 12);
-      margin-left: 0;
-      margin-top: 2em;
-    }
-  }
+@mixin rating-label {
+  float: left;
+  width: 50%;
+  margin-right: $horz-spacing-unit;
+  line-height: 2em;
+}
+@mixin prepend-icon-mobility {
+  padding-left: 20px;
+  background: url(../images/icon_mobility.gif) left center no-repeat;
+}
+@mixin prepend-icon-visual {
+  padding-left: 20px;
+  background: url(../images/icon_visual.gif) left center no-repeat;
+}
+@mixin prepend-icon-hearing {
+  padding-left: 20px;
+  background: url(../images/icon_hearing.gif) left center no-repeat;
+}
+.rate-info .label {
+  @include rating-label();
+  width: 6em;
+}
+// label icons
+.label.visual {
+  @include prepend-icon-visual();
+}
+.label.hearing {
+  @include prepend-icon-hearing();
+}
+.label.mobility {
+  @include prepend-icon-mobility();
 }
 
-@include at-breakpoint($desk) {
-  .views-row-odd {
-    @include span-columns(6, 12);
-  }
-  .views-row-even {
-    @include span-columns(6 omega, 12);
+// rating bar
+.result {
+  float: left;
+  line-height: 2em;
+  .percentage-bar {
+    @include inline-block;
+    background: $red;
+    width: 10em;
+    height: 1em;
+    &.empty{
+      background-color: $pale-blue;
+    }
+    div.good{
+      display: block;
+      background: $green; 
+      height: 1em;
+    }
   }
 }
