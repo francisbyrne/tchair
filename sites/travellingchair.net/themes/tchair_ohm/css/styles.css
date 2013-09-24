@@ -820,6 +820,20 @@ html.js fieldset.collapsed {
   height: 3.7em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_create-review\.scss}line{font-family:\000032}}
+.location-node-form #edit-field-latitude, .location-node-form #edit-field-longitude {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_create-review\.scss}line{font-family:\000035}}
+.location-node-form .vertical-tabs {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/forms\/_user_register\.scss}line{font-family:\000032}}
+#user-register-form fieldset#edit-locations {
+  display: none;
+}
+
 /**
  * $NODE
  */
@@ -840,6 +854,11 @@ html.js fieldset.collapsed {
 .node--article .field--name-field-image {
   float: left;
   margin: 0 2em 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/node\/_node-article\.scss}line{font-family:\0000311}}
+.node--page--full {
+  display: none;
 }
 
 /**
