@@ -1,0 +1,46 @@
+@mixin button() {
+  display: inline-block;
+  height: 2.2em;
+  margin: 0;
+  padding: 0 1.2em;
+
+  background-color: $dark-grey;
+
+  border: none;
+
+  color: #FFF;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 2.2;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  overflow: visible;
+  cursor: pointer;
+
+  &,
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $mid-grey;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+  }
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
