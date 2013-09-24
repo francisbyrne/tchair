@@ -11,6 +11,7 @@
   .form-text,
   .form-textarea {
     width: 100%;
+    max-width: 400px;
     background-color: #FFF;
     border: 1px solid $light-grey;
     color: $mid-grey;
