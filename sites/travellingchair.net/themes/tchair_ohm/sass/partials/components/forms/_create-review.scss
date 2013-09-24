@@ -6,3 +6,42 @@
     display: none;
   }
 }
+
+.rate-widget-emotion a.up, .rate-widget-emotion a.down {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border: none;
+  &.up {
+    background-image: url('../images/../images/thumbs_up.gif?1311813397');
+  }
+  &.down {
+    background-image: url('../images/../images/thumbs_down.gif?1311813401');
+  }
+  &:hover {
+    background-position: 0 -24px;
+  }
+  &.selected {
+    background-position: 0 -24px;
+  }
+}
+.rate-widget-emotion a.rate-button {
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  display: block;
+  padding: 0;
+  margin: 0 5px;
+  text-align: center;
+  text-decoration: none;
+  border-color: #ccc;
+  background-color: #ddd;
+  color: #666 !important;
+  &:hover {
+    border-color: #1083d1;
+    background-color: #BBE3F4;
+    color: #1083d1 !important;
+  }
+}
