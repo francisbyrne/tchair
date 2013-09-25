@@ -45,3 +45,7 @@
     color: #1083d1 !important;
   }
 }
+
+a#review-now {
+  @include button();
+}
