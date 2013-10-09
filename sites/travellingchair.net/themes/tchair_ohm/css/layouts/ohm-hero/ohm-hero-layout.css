@@ -90,7 +90,7 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/layouts\/ohm-hero\/ohm-hero-layout\.scss}line{font-family:\0000351}}
-.page-home h1 {
+.page-home h1, .page-search-review-result h1 {
   margin-left: 2rem;
 }
 

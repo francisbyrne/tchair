@@ -48,7 +48,7 @@ body {
   margin-bottom: 2 * $vert-spacing-unit;
   padding: 0 $horz-spacing-unit;
 }
-.page-home h1 {
+.page-home h1, .page-search-review-result h1 {
   margin-left: 2rem;
 }
 
