@@ -8,7 +8,7 @@
  * $BASE-TYPOGRAPHY
  */
 html {
-  font-size: 14px;
+  font-size: 16px;
   font-family: $pt-sans;
   color: $dark-grey;
 }
@@ -40,7 +40,6 @@ h6, .zeta {
   color: darken($mid-grey, 15%);
   font-family: $maven-pro;
   line-height: 1.2em;
-  text-transform: uppercase;
 
   a {
     color: inherit;
@@ -51,6 +50,7 @@ h6, .zeta {
 h1, .alpha {
   @include font-size(40px);
   font-weight: 700;
+  margin-top: 0.2em;
   @include at-breakpoint($tab) {
     @include font-size(55px);
   }

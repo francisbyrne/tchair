@@ -20,9 +20,13 @@
   @extend .beta;
   color: #FFF;
   text-decoration: none;
+  line-height: 66px;
 
   &:hover {
     color: $dark-blue;
+  }
+  @include at-breakpoint($tab) {
+    line-height: inherit;
   }
 }
 .site-branding__slogan {

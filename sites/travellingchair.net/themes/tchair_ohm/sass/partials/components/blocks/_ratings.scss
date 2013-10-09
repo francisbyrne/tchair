@@ -4,21 +4,28 @@
   margin-right: $horz-spacing-unit;
   line-height: 2em;
 }
+
 @mixin prepend-icon-mobility {
-  padding-left: 20px;
+  padding-left: $icon-padding;
   background: url(../images/icon_mobility.gif) left center no-repeat;
 }
 @mixin prepend-icon-visual {
-  padding-left: 20px;
+  padding-left: $icon-padding;
   background: url(../images/icon_visual.gif) left center no-repeat;
 }
 @mixin prepend-icon-hearing {
-  padding-left: 20px;
+  padding-left: $icon-padding;
   background: url(../images/icon_hearing.gif) left center no-repeat;
 }
-.rate-info .label {
-  @include rating-label();
-  width: 6em;
+.rate-info {
+  @include font-size(16px);
+  .label {
+    @include rating-label();
+    width: 5em;
+    @include at-breakpoint($tab) {
+      width: 6em;
+    }
+  }
 }
 // label icons
 .label.visual {
@@ -38,7 +45,7 @@
   .percentage-bar {
     @include inline-block;
     background: $red;
-    width: 10em;
+    width: 8em;
     height: 1em;
     &.empty{
       background-color: $pale-blue;
@@ -47,6 +54,9 @@
       display: block;
       background: $green; 
       height: 1em;
+    }
+    @include at-breakpoint($tab) {
+      width: 10em;
     }
   }
 }

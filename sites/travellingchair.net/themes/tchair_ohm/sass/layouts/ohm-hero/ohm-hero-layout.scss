@@ -36,17 +36,20 @@ body {
 
 /* Content Area */
 .l-highlighted-wrapper {
-  padding: $vert-spacing-unit 0;
+  padding-top: $vert-spacing-unit;
   background: #FFF;
-  margin-bottom: $vert-spacing-unit;
 }
 .l-region--help {
   margin-bottom: $vert-spacing-unit;
 }
 .l-main {
+  background: #FFF;
   margin-top: 0;
   margin-bottom: 2 * $vert-spacing-unit;
   padding: 0 $horz-spacing-unit;
+}
+.page-home h1 {
+  margin-left: 2rem;
 }
 
 /* Sidebars */

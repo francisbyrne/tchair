@@ -1,6 +1,8 @@
 .view-search .views-row {
   @include clearfix(true);
   border-bottom: 1px solid $light-grey;
+  padding-bottom: $vert-spacing-unit;
+  margin-bottom: $vert-spacing-unit;
   .field {
     margin-bottom: 0.5em;
   }
@@ -25,7 +27,6 @@
       margin-left: 40px;
     }
     .field--name-field-title {
-      @include font-size(28px);
       margin-left: 0;
     }
     .field--name-field-category {
@@ -48,9 +49,9 @@
 }
 @include at-breakpoint($desk) {
   .view-search .views-row-odd {
-    @include span-columns(6, 12);
+    
   }
   .view-search .views-row-even {
-    @include span-columns(6 omega, 12);
+    
   }
 }
