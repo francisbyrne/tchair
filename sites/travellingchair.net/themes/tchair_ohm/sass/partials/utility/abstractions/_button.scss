@@ -1,3 +1,6 @@
+@import 'buttons/options';
+@import 'buttons/glow';
+
 @mixin button() {
   display: inline-block;
   height: 2.2em;
@@ -42,5 +45,42 @@
   &::-moz-focus-inner {
     border: 0;
     padding: 0;
+  }
+}
+
+@mixin button2($background) {
+  @include box-shadow(none);
+  @include transition-property(background);
+  @include transition-duration(.3s);
+  @include border-radius(3px);
+  @include inline-block(middle);
+  @include glow();
+  height: $height;
+  line-height: $height;
+  padding: 0px ($height * .6);
+  font-weight: $font-weight;
+  font-size: $font-size;
+  font-family: $font-family;
+  text-decoration: none;
+  text-align: center;
+  background: $background;
+  border: none;
+  text-shadow: none;
+
+  &:hover {
+      background: lighten($background, 5%);
+  }
+  &:active {
+      @include box-shadow(inset 0px 1px 3px rgba(0, 0, 0, .3), 0px 1px 0px rgba(255, 255, 255, 1));
+      @include transition-duration(0s);
+      background: desaturate($background, 20%);
+      color: darken($background, 20%);
+      text-shadow: 0px 1px 0px rgba(255, 255, 255, .4);
+  }
+  &.disabled {
+      @include box-shadow(none);
+  }
+  &:focus {
+      outline: none;
   }
 }

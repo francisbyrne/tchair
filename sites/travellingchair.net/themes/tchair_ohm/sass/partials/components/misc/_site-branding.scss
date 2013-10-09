@@ -23,7 +23,7 @@
   line-height: 66px;
 
   &:hover {
-    color: $dark-blue;
+    color: $dark-grey;
   }
   @include at-breakpoint($tab) {
     line-height: inherit;
