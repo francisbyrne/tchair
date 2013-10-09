@@ -51,9 +51,6 @@ h1, .alpha {
   @include font-size(40px);
   font-weight: 700;
   margin-top: 0.2em;
-  @include at-breakpoint($tab) {
-    @include font-size(55px);
-  }
 }
 h2, .beta {
   @include font-size(28px);
