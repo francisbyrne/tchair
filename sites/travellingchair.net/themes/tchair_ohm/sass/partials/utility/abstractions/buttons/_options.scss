@@ -5,16 +5,16 @@ $namespace: '.button'; //prefix for all classes
 $glow_namespace: '.glow';
 $glow_color: #2c9adb;
 $bgcolor: #EEE;
-$height: 32px;
+$height: 40px;
 
 
 //////////////////////////////////////////////////////////
 // TYPOGRAPHY ////////////////////////////////////////////
 //////////////////////////////////////////////////////////
 $font-color: #666;
-$font-size: 14px;
+$font-size: 20px;
 $font-weight: 400;
-$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-family: $maven-pro;// "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 //////////////////////////////////////////////////////////
 // BUTTON OPTIONS ////////////////////////////////////////

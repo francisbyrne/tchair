@@ -55,11 +55,11 @@
   @include border-radius(3px);
   @include inline-block(middle);
   @include glow();
+  @include font-size($font-size * 0.9);
   height: $height;
   line-height: $height;
-  padding: 0px ($height * .6);
+  padding: 0px 1em;
   font-weight: $font-weight;
-  font-size: $font-size;
   font-family: $font-family;
   text-decoration: none;
   text-align: center;
@@ -82,5 +82,16 @@
   }
   &:focus {
       outline: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    display: block;
+  }
+  @include at-breakpoint($tab) {
+  }
+  @include at-breakpoint($desk) {
+    @include font-size($font-size);
   }
 }
