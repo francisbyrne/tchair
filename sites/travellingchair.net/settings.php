@@ -183,7 +183,7 @@ $databases = array (
     'default' => 
     array (
       'database' => 'tchair_dev',
-      'username' => 'tchair_user',
+      'username' => 'tchair',
       'password' => '2mhIbIc4',
       'host' => 'localhost',
       'port' => '',
