@@ -1,0 +1,4 @@
+.views-exposed-form .views-exposed-widget .form-submit {
+  @include button();
+  margin-top: 0;
+}
