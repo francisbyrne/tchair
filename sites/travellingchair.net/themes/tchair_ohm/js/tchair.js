@@ -111,7 +111,7 @@
 				
 				return false;
 			});		
-*/			
+			*/
 
 		//	Drupal.addr2latlng($('#filter-location-value').val(), latField, lngField);	
 		//			    	$('form#views-exposed-form-search-page-2').submit();	
