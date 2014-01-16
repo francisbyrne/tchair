@@ -98,6 +98,7 @@
 			$('#filter-location-value').keypress(function(e){
 				if(e.charCode == 13) {return false; }
 			});
+/*
 			$('#edit-submit-search').hide();
 			$('#edit-submit-search').attr("disabled",true);
 			$('#edit-submit-search').before("<a id='submit' class='button' href='#'>Search</a>");
@@ -110,7 +111,7 @@
 				
 				return false;
 			});		
-			
+*/			
 
 		//	Drupal.addr2latlng($('#filter-location-value').val(), latField, lngField);	
 		//			    	$('form#views-exposed-form-search-page-2').submit();	

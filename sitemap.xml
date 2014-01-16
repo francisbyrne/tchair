@@ -1,0 +1,3011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://travellingchair.net/</loc>
+  <lastmod>2013-11-22T00:42:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/about-travelling-chair</loc>
+  <lastmod>2013-11-22T00:42:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>http://travellingchair.net/user/login</loc>
+  <lastmod>2013-11-22T00:42:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user/register</loc>
+  <lastmod>2013-11-22T00:43:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/46</loc>
+  <lastmod>2013-11-22T00:42:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/dandelion-restaurant</loc>
+  <lastmod>2013-11-22T00:42:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/i-do-kitchen</loc>
+  <lastmod>2013-11-22T00:42:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/white-rabbit-restaurant</loc>
+  <lastmod>2013-11-22T00:42:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/globe-cafe</loc>
+  <lastmod>2013-11-22T00:42:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/kfc</loc>
+  <lastmod>2013-11-22T00:42:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/cbm-australia</loc>
+  <lastmod>2013-11-22T00:42:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/mohr-fish</loc>
+  <lastmod>2013-11-22T00:42:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/le-fleuve-restaurant</loc>
+  <lastmod>2013-11-22T00:42:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/kublai-restaurant</loc>
+  <lastmod>2013-11-22T00:42:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/seaford-rsl</loc>
+  <lastmod>2013-11-22T00:42:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/disclaimer</loc>
+  <lastmod>2013-11-22T00:42:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/feedback</loc>
+  <lastmod>2013-11-22T00:43:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://travellingchair.net/user</loc>
+  <lastmod>2013-11-22T00:43:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user/password</loc>
+  <lastmod>2013-11-22T00:43:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1</loc>
+  <lastmod>2013-11-22T00:43:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1&amp;delta_1=Restaurants</loc>
+  <lastmod>2013-11-22T00:43:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/395%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/annabel-carr</loc>
+  <lastmod>2013-11-22T00:43:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Dandelion%20Restaurant&amp;nid=395</loc>
+  <lastmod>2013-11-22T00:43:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/394%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=I%20Do%20Kitchen&amp;nid=394</loc>
+  <lastmod>2013-11-22T00:43:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/393%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=White%20Rabbit%20Restaurant&amp;nid=393</loc>
+  <lastmod>2013-11-22T00:43:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1&amp;delta_1=Cafe/Coffee%20Shop</loc>
+  <lastmod>2013-11-22T00:43:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/392%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Globe%20Cafe&amp;nid=392</loc>
+  <lastmod>2013-11-22T00:43:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1&amp;delta_1=Fast%20Food</loc>
+  <lastmod>2013-11-22T00:43:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/391%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/naomi-chainey</loc>
+  <lastmod>2013-11-22T00:43:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=KFC&amp;nid=391</loc>
+  <lastmod>2013-11-22T00:43:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=11</loc>
+  <lastmod>2013-11-22T00:43:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=11&amp;delta_11=Offices</loc>
+  <lastmod>2013-11-22T00:43:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/390%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=CBM%20Australia&amp;nid=390</loc>
+  <lastmod>2013-11-22T00:43:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/389%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/pinkpeacerose</loc>
+  <lastmod>2013-11-22T00:43:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Mohr%20Fish&amp;nid=389</loc>
+  <lastmod>2013-11-22T00:43:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/387%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:43:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/margaretyoung</loc>
+  <lastmod>2013-11-22T00:43:59+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Le%20Fleuve%20Restaurant&amp;nid=387</loc>
+  <lastmod>2013-11-22T00:44:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/380%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:44:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=KUBLAI%20Restaurant&amp;nid=380</loc>
+  <lastmod>2013-11-22T00:44:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1&amp;delta_1=Other</loc>
+  <lastmod>2013-11-22T00:44:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/379%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:44:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/paul-ironside</loc>
+  <lastmod>2013-11-22T00:44:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Seaford%20RSL&amp;nid=379</loc>
+  <lastmod>2013-11-22T00:44:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/cafeteria-peter-maccallum-cancer-centre</loc>
+  <lastmod>2013-11-22T00:44:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/puccinos</loc>
+  <lastmod>2013-11-22T00:44:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ideal-personal-fitness</loc>
+  <lastmod>2013-11-22T00:44:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/heads-3-brighton</loc>
+  <lastmod>2013-11-22T00:44:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/city-library</loc>
+  <lastmod>2013-11-22T00:44:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/time-out-cafebar</loc>
+  <lastmod>2013-11-22T00:44:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/dr-geoffrey-j-pullen</loc>
+  <lastmod>2013-11-22T00:44:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/crs-australia</loc>
+  <lastmod>2013-11-22T00:44:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/cafe-florentine</loc>
+  <lastmod>2013-11-22T00:44:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/palace-dendy-brighton</loc>
+  <lastmod>2013-11-22T00:44:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/palace-brighton-bay</loc>
+  <lastmod>2013-11-22T00:44:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/body-shop</loc>
+  <lastmod>2013-11-22T00:44:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/rubi-shoes</loc>
+  <lastmod>2013-11-22T00:44:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/transport-hotel</loc>
+  <lastmod>2013-11-22T00:44:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bistrot-dorsay</loc>
+  <lastmod>2013-11-22T00:44:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/regent-theatre</loc>
+  <lastmod>2013-11-22T00:44:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/oxfam-shop</loc>
+  <lastmod>2013-11-22T00:44:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/walk-arcade</loc>
+  <lastmod>2013-11-22T00:44:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/david-jones-food-court</loc>
+  <lastmod>2013-11-22T00:44:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/sock-shop</loc>
+  <lastmod>2013-11-22T00:44:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/star-walk-cafe</loc>
+  <lastmod>2013-11-22T00:44:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/officeworks-elizabeth-street</loc>
+  <lastmod>2013-11-22T00:44:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/caffe-te</loc>
+  <lastmod>2013-11-22T00:45:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/rocksalt-restaurant</loc>
+  <lastmod>2013-11-22T00:45:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/picassos-cafe</loc>
+  <lastmod>2013-11-22T00:45:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/dendy-plaza-shopping-centre</loc>
+  <lastmod>2013-11-22T00:45:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/top-titles</loc>
+  <lastmod>2013-11-22T00:45:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/thesaurus-bookshop</loc>
+  <lastmod>2013-11-22T00:45:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bakers-delight</loc>
+  <lastmod>2013-11-22T00:45:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/tafe-buildings-ta-tb-tc-td</loc>
+  <lastmod>2013-11-22T00:45:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/pantry</loc>
+  <lastmod>2013-11-22T00:45:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/swinburne-university-library</loc>
+  <lastmod>2013-11-22T00:45:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/cafe-blac</loc>
+  <lastmod>2013-11-22T00:45:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/country-road</loc>
+  <lastmod>2013-11-22T00:45:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/witchery</loc>
+  <lastmod>2013-11-22T00:45:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/clegs</loc>
+  <lastmod>2013-11-22T00:45:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/botticelli-brighton</loc>
+  <lastmod>2013-11-22T00:45:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/commonwealth-bank-middle-brighton</loc>
+  <lastmod>2013-11-22T00:45:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/commonwealth-bank-north-brighton</loc>
+  <lastmod>2013-11-22T00:45:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/brighton-spinal-group</loc>
+  <lastmod>2013-11-22T00:45:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/mano-pizzeria</loc>
+  <lastmod>2013-11-22T00:45:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/golliwogs-toy-store</loc>
+  <lastmod>2013-11-22T00:45:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/payless-shoes</loc>
+  <lastmod>2013-11-22T00:45:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/no-136-coffee</loc>
+  <lastmod>2013-11-22T00:45:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/thomas-jewellers</loc>
+  <lastmod>2013-11-22T00:45:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/athletes-foot-elizabeth-street</loc>
+  <lastmod>2013-11-22T00:45:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/minotaur</loc>
+  <lastmod>2013-11-22T00:45:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bread-top-elizabeth-street</loc>
+  <lastmod>2013-11-22T00:45:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/skinny-dog-hotel</loc>
+  <lastmod>2013-11-22T00:45:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/lion-hotel-melbourne-central</loc>
+  <lastmod>2013-11-22T00:46:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/c31-melbourne</loc>
+  <lastmod>2013-11-22T00:46:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/rmit-television-studios</loc>
+  <lastmod>2013-11-22T00:46:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/stellini-bar</loc>
+  <lastmod>2013-11-22T00:46:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/mr-tulk</loc>
+  <lastmod>2013-11-22T00:46:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/blackburn-hotel</loc>
+  <lastmod>2013-11-22T00:46:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/coburg-leisure-centre</loc>
+  <lastmod>2013-11-22T00:46:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/grit-media</loc>
+  <lastmod>2013-11-22T00:46:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/flinders-street-station</loc>
+  <lastmod>2013-11-22T00:46:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/carlton</loc>
+  <lastmod>2013-11-22T00:46:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/harding-st-medical-centre</loc>
+  <lastmod>2013-11-22T00:46:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/target-centre-bourke-street</loc>
+  <lastmod>2013-11-22T00:46:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bolinda-primary-school</loc>
+  <lastmod>2013-11-22T00:46:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/starbucks</loc>
+  <lastmod>2013-11-22T00:46:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/little-hairy-sista</loc>
+  <lastmod>2013-11-22T00:46:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/federation-square</loc>
+  <lastmod>2013-11-22T00:46:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/jb-hi-fi-bourke-st</loc>
+  <lastmod>2013-11-22T00:46:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/hungry-jacks</loc>
+  <lastmod>2013-11-22T00:46:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/half-tix-city-gallery</loc>
+  <lastmod>2013-11-22T00:46:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/accessible-tram-stops</loc>
+  <lastmod>2013-11-22T00:46:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-town-hall</loc>
+  <lastmod>2013-11-22T00:46:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-central-station</loc>
+  <lastmod>2013-11-22T00:46:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/parliament-station-0</loc>
+  <lastmod>2013-11-22T00:46:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/sugar-station-flinders-street-station</loc>
+  <lastmod>2013-11-22T00:46:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/info-central-flinders-street-station</loc>
+  <lastmod>2013-11-22T00:46:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/victorian-state-library</loc>
+  <lastmod>2013-11-22T00:46:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/travellers-aid-flinders-street-station</loc>
+  <lastmod>2013-11-22T00:46:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ume-hana</loc>
+  <lastmod>2013-11-22T00:46:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-convention-and-exhibition-centre</loc>
+  <lastmod>2013-11-22T00:47:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/edithvale-station</loc>
+  <lastmod>2013-11-22T00:47:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/half-tix-city-gallery-0</loc>
+  <lastmod>2013-11-22T00:47:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/monga-sweet-cafe</loc>
+  <lastmod>2013-11-22T00:47:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/sichuan-bar</loc>
+  <lastmod>2013-11-22T00:47:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/strand-arcade</loc>
+  <lastmod>2013-11-22T00:47:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-gpo-0</loc>
+  <lastmod>2013-11-22T00:47:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/taco-bill-russell-st</loc>
+  <lastmod>2013-11-22T00:47:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-post-office</loc>
+  <lastmod>2013-11-22T00:47:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/city-square-motel</loc>
+  <lastmod>2013-11-22T00:47:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/strandbags</loc>
+  <lastmod>2013-11-22T00:47:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/etihad-stadium</loc>
+  <lastmod>2013-11-22T00:47:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/crossways</loc>
+  <lastmod>2013-11-22T00:47:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/arthur-daleys-clearance-house</loc>
+  <lastmod>2013-11-22T00:47:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/club-x-swanston-st</loc>
+  <lastmod>2013-11-22T00:47:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/jb-hi-fi-lonsdale-stelizabeth-st</loc>
+  <lastmod>2013-11-22T00:47:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/dandenong-charcoal-chicken</loc>
+  <lastmod>2013-11-22T00:47:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/dandenong-fish-and-chips-0</loc>
+  <lastmod>2013-11-22T00:47:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/subway-noble-park</loc>
+  <lastmod>2013-11-22T00:47:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/telstra-store</loc>
+  <lastmod>2013-11-22T00:47:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/chinatown-melbourne-cbd</loc>
+  <lastmod>2013-11-22T00:47:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/aldi-melbourne-cbd</loc>
+  <lastmod>2013-11-22T00:47:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/fed-square-book-market</loc>
+  <lastmod>2013-11-22T00:47:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/southern-cross-station-formerly-spencer-street-station</loc>
+  <lastmod>2013-11-22T00:47:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/broadmeadows-station</loc>
+  <lastmod>2013-11-22T00:47:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/901-frankston-melbourne-airport-smartbus</loc>
+  <lastmod>2013-11-22T00:47:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/michels-patisserie</loc>
+  <lastmod>2013-11-22T00:47:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/galleria</loc>
+  <lastmod>2013-11-22T00:47:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/allbooks4less</loc>
+  <lastmod>2013-11-22T00:48:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/markmuir</loc>
+  <lastmod>2013-11-22T00:48:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-gpo</loc>
+  <lastmod>2013-11-22T00:48:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bendigo-bank</loc>
+  <lastmod>2013-11-22T00:48:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/suitability</loc>
+  <lastmod>2013-11-22T00:48:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/stotts-colleges</loc>
+  <lastmod>2013-11-22T00:48:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/croydon-hotel</loc>
+  <lastmod>2013-11-22T00:48:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/nirvana-computors</loc>
+  <lastmod>2013-11-22T00:48:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/seymour-street-medical-and-dental-centre</loc>
+  <lastmod>2013-11-22T00:48:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/qv</loc>
+  <lastmod>2013-11-22T00:48:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ringwood-railway-station</loc>
+  <lastmod>2013-11-22T00:48:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/stuzzi</loc>
+  <lastmod>2013-11-22T00:48:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/springvale-shopping-centre</loc>
+  <lastmod>2013-11-22T00:48:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ringwood-library</loc>
+  <lastmod>2013-11-22T00:48:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/eastland-shopping-centre</loc>
+  <lastmod>2013-11-22T00:48:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/box-hill-train-station</loc>
+  <lastmod>2013-11-22T00:48:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-city-hair</loc>
+  <lastmod>2013-11-22T00:48:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/mychemist</loc>
+  <lastmod>2013-11-22T00:48:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/block-arcade</loc>
+  <lastmod>2013-11-22T00:48:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/joanne-mercer</loc>
+  <lastmod>2013-11-22T00:48:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/victorian-f1-special-events-shop</loc>
+  <lastmod>2013-11-22T00:48:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/perfume-connection-0</loc>
+  <lastmod>2013-11-22T00:48:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/good-games-dandenong</loc>
+  <lastmod>2013-11-22T00:48:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/pen-city</loc>
+  <lastmod>2013-11-22T00:48:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/aussie-disposals</loc>
+  <lastmod>2013-11-22T00:48:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/metro-pc</loc>
+  <lastmod>2013-11-22T00:48:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ekselman</loc>
+  <lastmod>2013-11-22T00:48:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ugg-boots-chic-empire</loc>
+  <lastmod>2013-11-22T00:49:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/melbourne-optical-centre</loc>
+  <lastmod>2013-11-22T00:49:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/michaels-camera-video-digital</loc>
+  <lastmod>2013-11-22T00:49:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/siricco</loc>
+  <lastmod>2013-11-22T00:49:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/octavia-grace</loc>
+  <lastmod>2013-11-22T00:49:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/curry-bowl</loc>
+  <lastmod>2013-11-22T00:49:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/m-m-fight-store</loc>
+  <lastmod>2013-11-22T00:49:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/liqourolist</loc>
+  <lastmod>2013-11-22T00:49:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/thrifty-car-rental</loc>
+  <lastmod>2013-11-22T00:49:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/st-francis-church</loc>
+  <lastmod>2013-11-22T00:49:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/mib-melbourne-international-back-packer</loc>
+  <lastmod>2013-11-22T00:49:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/angus-coote</loc>
+  <lastmod>2013-11-22T00:49:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/queen-victoria-market</loc>
+  <lastmod>2013-11-22T00:49:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ginger-tree</loc>
+  <lastmod>2013-11-22T00:49:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/bsc-bikes</loc>
+  <lastmod>2013-11-22T00:49:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/doxa-social-club</loc>
+  <lastmod>2013-11-22T00:49:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/notebooks-direct</loc>
+  <lastmod>2013-11-22T00:49:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/sunglasses-hut</loc>
+  <lastmod>2013-11-22T00:49:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/petra-hair-care</loc>
+  <lastmod>2013-11-22T00:49:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/swarovski</loc>
+  <lastmod>2013-11-22T00:49:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/oaks-collins</loc>
+  <lastmod>2013-11-22T00:49:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/armidale-motel</loc>
+  <lastmod>2013-11-22T00:49:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/trade-winds-hotel-fremantle</loc>
+  <lastmod>2013-11-22T00:49:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/croydon-takeway</loc>
+  <lastmod>2013-11-22T00:49:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ripples-n-tonic</loc>
+  <lastmod>2013-11-22T00:49:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/caladenia-dementia-care</loc>
+  <lastmod>2013-11-22T00:49:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/hungarian-bakehouse</loc>
+  <lastmod>2013-11-22T00:50:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/ocarrolyns</loc>
+  <lastmod>2013-11-22T00:50:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/elephant-and-wheelbarrow-hotel</loc>
+  <lastmod>2013-11-22T00:50:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/venue/cafe-duo</loc>
+  <lastmod>2013-11-22T00:50:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/92%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Cafeteria%20%20at%20the%20Peter%20MacCallum%20Cancer%20Centre&amp;nid=92</loc>
+  <lastmod>2013-11-22T00:50:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/117%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Puccinos&amp;nid=117</loc>
+  <lastmod>2013-11-22T00:50:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=16</loc>
+  <lastmod>2013-11-22T00:50:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=16&amp;delta_16=Gyms</loc>
+  <lastmod>2013-11-22T00:50:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/130%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Ideal%20Personal%20Fitness&amp;nid=130</loc>
+  <lastmod>2013-11-22T00:50:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=11&amp;delta_11=Other</loc>
+  <lastmod>2013-11-22T00:50:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/131%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Heads%203%20of%20Brighton&amp;nid=131</loc>
+  <lastmod>2013-11-22T00:50:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=10</loc>
+  <lastmod>2013-11-22T00:50:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=10&amp;delta_10=Other</loc>
+  <lastmod>2013-11-22T00:50:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/148%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=City%20Library&amp;nid=148</loc>
+  <lastmod>2013-11-22T00:50:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/149%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Time%20Out%20Cafe/Bar&amp;nid=149</loc>
+  <lastmod>2013-11-22T00:50:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=8</loc>
+  <lastmod>2013-11-22T00:50:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=8&amp;delta_8=Dental</loc>
+  <lastmod>2013-11-22T00:50:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/150%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Dr%20Geoffrey%20J%20Pullen&amp;nid=150</loc>
+  <lastmod>2013-11-22T00:50:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/155%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=CRS%20Australia&amp;nid=155</loc>
+  <lastmod>2013-11-22T00:50:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/156%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:50:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Cafe%20Florentine&amp;nid=156</loc>
+  <lastmod>2013-11-22T00:50:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=7</loc>
+  <lastmod>2013-11-22T00:50:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=7&amp;delta_7=Cinemas</loc>
+  <lastmod>2013-11-22T00:50:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/157%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Palace%20Dendy%20Brighton&amp;nid=157</loc>
+  <lastmod>2013-11-22T00:51:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/158%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Palace%20Brighton%20Bay&amp;nid=158</loc>
+  <lastmod>2013-11-22T00:51:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15</loc>
+  <lastmod>2013-11-22T00:51:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Other</loc>
+  <lastmod>2013-11-22T00:51:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/162%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Body%20Shop&amp;nid=162</loc>
+  <lastmod>2013-11-22T00:51:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Shoes</loc>
+  <lastmod>2013-11-22T00:51:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/164%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Rubi%20Shoes&amp;nid=164</loc>
+  <lastmod>2013-11-22T00:51:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=1&amp;delta_1=Pubs</loc>
+  <lastmod>2013-11-22T00:51:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/168%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/ariane</loc>
+  <lastmod>2013-11-22T00:51:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Transport%20Hotel&amp;nid=168</loc>
+  <lastmod>2013-11-22T00:51:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/205%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Bistrot%20d%27Orsay&amp;nid=205</loc>
+  <lastmod>2013-11-22T00:51:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=7&amp;delta_7=Theatres</loc>
+  <lastmod>2013-11-22T00:51:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/206%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Regent%20Theatre&amp;nid=206</loc>
+  <lastmod>2013-11-22T00:51:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/229%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Oxfam%20Shop&amp;nid=229</loc>
+  <lastmod>2013-11-22T00:51:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=14</loc>
+  <lastmod>2013-11-22T00:51:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=14&amp;delta_14=Malls</loc>
+  <lastmod>2013-11-22T00:51:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/231%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Walk%20Arcade&amp;nid=231</loc>
+  <lastmod>2013-11-22T00:51:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/236%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=David%20Jones%20Food%20Court&amp;nid=236</loc>
+  <lastmod>2013-11-22T00:51:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Clothing</loc>
+  <lastmod>2013-11-22T00:51:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/238%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Sock%20Shop&amp;nid=238</loc>
+  <lastmod>2013-11-22T00:51:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/240%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:51:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Star%20Walk%20Cafe&amp;nid=240</loc>
+  <lastmod>2013-11-22T00:51:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Office</loc>
+  <lastmod>2013-11-22T00:51:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/242%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Officeworks%20Elizabeth%20Street&amp;nid=242</loc>
+  <lastmod>2013-11-22T00:52:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/245%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Caffe%20Per%20Te&amp;nid=245</loc>
+  <lastmod>2013-11-22T00:52:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/246%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Rocksalt%20Restaurant&amp;nid=246</loc>
+  <lastmod>2013-11-22T00:52:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/247%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Picasso%27s%20Cafe&amp;nid=247</loc>
+  <lastmod>2013-11-22T00:52:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/251%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Dendy%20Plaza%20Shopping%20Centre&amp;nid=251</loc>
+  <lastmod>2013-11-22T00:52:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Books/DVDs</loc>
+  <lastmod>2013-11-22T00:52:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/252%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Top%20Titles&amp;nid=252</loc>
+  <lastmod>2013-11-22T00:52:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/253%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Thesaurus%20Bookshop&amp;nid=253</loc>
+  <lastmod>2013-11-22T00:52:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=14&amp;delta_14=Bakeries</loc>
+  <lastmod>2013-11-22T00:52:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/255%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Bakers%20Delight&amp;nid=255</loc>
+  <lastmod>2013-11-22T00:52:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=10&amp;delta_10=Higher%20Education</loc>
+  <lastmod>2013-11-22T00:52:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/271%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=TAFE%20buildings%20TA%2C%20TB%2C%20TC%20%26%20TD&amp;nid=271</loc>
+  <lastmod>2013-11-22T00:52:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/272%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Pantry&amp;nid=272</loc>
+  <lastmod>2013-11-22T00:52:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/273%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Swinburne%20University%20Library&amp;nid=273</loc>
+  <lastmod>2013-11-22T00:52:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/274%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Cafe%20Blac&amp;nid=274</loc>
+  <lastmod>2013-11-22T00:52:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/275%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Country%20Road&amp;nid=275</loc>
+  <lastmod>2013-11-22T00:52:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/276%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Witchery&amp;nid=276</loc>
+  <lastmod>2013-11-22T00:52:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/283%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Clegs&amp;nid=283</loc>
+  <lastmod>2013-11-22T00:52:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/292%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Botticelli%20of%20Brighton&amp;nid=292</loc>
+  <lastmod>2013-11-22T00:52:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/293%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Commonwealth%20Bank%20Middle%20Brighton&amp;nid=293</loc>
+  <lastmod>2013-11-22T00:52:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/294%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:52:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Commonwealth%20Bank%20North%20Brighton&amp;nid=294</loc>
+  <lastmod>2013-11-22T00:52:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=8&amp;delta_8=Other</loc>
+  <lastmod>2013-11-22T00:52:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/295%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Brighton%20Spinal%20Group&amp;nid=295</loc>
+  <lastmod>2013-11-22T00:53:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/296%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=A%20Mano%20Pizzeria&amp;nid=296</loc>
+  <lastmod>2013-11-22T00:53:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/297%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Golliwogs%20Toy%20Store&amp;nid=297</loc>
+  <lastmod>2013-11-22T00:53:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/313%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Payless%20Shoes&amp;nid=313</loc>
+  <lastmod>2013-11-22T00:53:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/314%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=No.%20136%20Coffee&amp;nid=314</loc>
+  <lastmod>2013-11-22T00:53:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Jewellery</loc>
+  <lastmod>2013-11-22T00:53:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/315%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Thomas%20Jewellers&amp;nid=315</loc>
+  <lastmod>2013-11-22T00:53:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/327%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Athlete%27s%20Foot%20Elizabeth%20Street&amp;nid=327</loc>
+  <lastmod>2013-11-22T00:53:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=7&amp;delta_7=Other</loc>
+  <lastmod>2013-11-22T00:53:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/328%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Minotaur&amp;nid=328</loc>
+  <lastmod>2013-11-22T00:53:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/329%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Bread%20Top%20Elizabeth%20Street&amp;nid=329</loc>
+  <lastmod>2013-11-22T00:53:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/62%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Skinny%20Dog%20Hotel&amp;nid=62</loc>
+  <lastmod>2013-11-22T00:53:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/63%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Lion%20Hotel%20%28Melbourne%20Central%29&amp;nid=63</loc>
+  <lastmod>2013-11-22T00:53:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/64%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=C31%20Melbourne&amp;nid=64</loc>
+  <lastmod>2013-11-22T00:53:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/65%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=RMIT%20Television%20Studios&amp;nid=65</loc>
+  <lastmod>2013-11-22T00:53:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/66%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Stellini%20Bar&amp;nid=66</loc>
+  <lastmod>2013-11-22T00:53:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/74%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Mr%20Tulk&amp;nid=74</loc>
+  <lastmod>2013-11-22T00:53:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/82%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Blackburn%20Hotel&amp;nid=82</loc>
+  <lastmod>2013-11-22T00:53:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=16&amp;delta_16=Swimming%20Pools</loc>
+  <lastmod>2013-11-22T00:53:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/90%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Coburg%20Leisure%20Centre&amp;nid=90</loc>
+  <lastmod>2013-11-22T00:53:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/91%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:53:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Grit%20Media&amp;nid=91</loc>
+  <lastmod>2013-11-22T00:53:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=12</loc>
+  <lastmod>2013-11-22T00:53:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=12&amp;delta_12=Train%20Stations</loc>
+  <lastmod>2013-11-22T00:54:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/93%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/anabellphan</loc>
+  <lastmod>2013-11-22T00:54:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Flinders%20Street%20Station&amp;nid=93</loc>
+  <lastmod>2013-11-22T00:54:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=4</loc>
+  <lastmod>2013-11-22T00:54:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=4&amp;delta_4=Bars</loc>
+  <lastmod>2013-11-22T00:54:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/94%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Carlton&amp;nid=94</loc>
+  <lastmod>2013-11-22T00:54:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=8&amp;delta_8=General%20Practice</loc>
+  <lastmod>2013-11-22T00:54:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/99%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Harding%20st%20medical%20centre&amp;nid=99</loc>
+  <lastmod>2013-11-22T00:54:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/101%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Target%20Centre%20Bourke%20Street%20&amp;nid=101</loc>
+  <lastmod>2013-11-22T00:54:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=10&amp;delta_10=Primary%20Schools</loc>
+  <lastmod>2013-11-22T00:54:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/104%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Bolinda%20Primary%20School&amp;nid=104</loc>
+  <lastmod>2013-11-22T00:54:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/111%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Starbucks%20&amp;nid=111</loc>
+  <lastmod>2013-11-22T00:54:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/113%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Little%20Hairy%20Sista&amp;nid=113</loc>
+  <lastmod>2013-11-22T00:54:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/112%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Federation%20Square&amp;nid=112</loc>
+  <lastmod>2013-11-22T00:54:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Electrical</loc>
+  <lastmod>2013-11-22T00:54:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/114%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/david-robinson</loc>
+  <lastmod>2013-11-22T00:54:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/users/darrenmcauliffe</loc>
+  <lastmod>2013-11-22T00:54:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=JB%20Hi-Fi%20Bourke%20St&amp;nid=114</loc>
+  <lastmod>2013-11-22T00:54:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/118%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Hungry%20Jacks&amp;nid=118</loc>
+  <lastmod>2013-11-22T00:54:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=9</loc>
+  <lastmod>2013-11-22T00:54:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=9&amp;delta_9=Travel%20Agents</loc>
+  <lastmod>2013-11-22T00:54:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/119%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Half-%20Tix%20%26%20City%20Gallery&amp;nid=119</loc>
+  <lastmod>2013-11-22T00:54:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=12&amp;delta_12=Other</loc>
+  <lastmod>2013-11-22T00:54:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/122%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:54:59+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Accessible%20Tram%20Stops&amp;nid=122</loc>
+  <lastmod>2013-11-22T00:55:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13</loc>
+  <lastmod>2013-11-22T00:55:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13&amp;delta_13=Community%20Halls</loc>
+  <lastmod>2013-11-22T00:55:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13&amp;delta_13=Corporate%20Events</loc>
+  <lastmod>2013-11-22T00:55:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13&amp;delta_13=Conference%20Venues</loc>
+  <lastmod>2013-11-22T00:55:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/124%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20Town%20Hall&amp;nid=124</loc>
+  <lastmod>2013-11-22T00:55:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/128%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20Central%20Station&amp;nid=128</loc>
+  <lastmod>2013-11-22T00:55:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/132%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Parliament%20Station&amp;nid=132</loc>
+  <lastmod>2013-11-22T00:55:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/133%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Sugar%20Station%20at%20Flinders%20Street%20Station&amp;nid=133</loc>
+  <lastmod>2013-11-22T00:55:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/134%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Info%20central%20at%20Flinders%20Street%20Station&amp;nid=134</loc>
+  <lastmod>2013-11-22T00:55:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/135%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Victorian%20State%20Library&amp;nid=135</loc>
+  <lastmod>2013-11-22T00:55:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/136%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Traveller%27s%20Aid%20at%20flinders%20street%20station&amp;nid=136</loc>
+  <lastmod>2013-11-22T00:55:30+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/137%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Ume%20Hana&amp;nid=137</loc>
+  <lastmod>2013-11-22T00:55:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/138%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20Convention%20and%20Exhibition%20Centre&amp;nid=138</loc>
+  <lastmod>2013-11-22T00:55:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/139%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Edithvale%20Station&amp;nid=139</loc>
+  <lastmod>2013-11-22T00:55:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/140%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:44+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Half-Tix%2C%20City%20gallery&amp;nid=140</loc>
+  <lastmod>2013-11-22T00:55:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/160%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Monga%20-%20Sweet%20Cafe&amp;nid=160</loc>
+  <lastmod>2013-11-22T00:55:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/161%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Sichuan%20Bar&amp;nid=161</loc>
+  <lastmod>2013-11-22T00:55:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/163%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Strand%20Arcade&amp;nid=163</loc>
+  <lastmod>2013-11-22T00:55:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/169%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20GPO&amp;nid=169</loc>
+  <lastmod>2013-11-22T00:55:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/170%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:55:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Taco%20Bill%20Russell%20St&amp;nid=170</loc>
+  <lastmod>2013-11-22T00:56:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=Post%20Office</loc>
+  <lastmod>2013-11-22T00:56:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/175%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20Post%20Office&amp;nid=175</loc>
+  <lastmod>2013-11-22T00:56:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=9&amp;delta_9=Motels</loc>
+  <lastmod>2013-11-22T00:56:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/180%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=City%20Square%20Motel%20&amp;nid=180</loc>
+  <lastmod>2013-11-22T00:56:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/183%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Strandbags&amp;nid=183</loc>
+  <lastmod>2013-11-22T00:56:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13&amp;delta_13=Parties</loc>
+  <lastmod>2013-11-22T00:56:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=13&amp;delta_13=Other</loc>
+  <lastmod>2013-11-22T00:56:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/187%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Etihad%20Stadium&amp;nid=187</loc>
+  <lastmod>2013-11-22T00:56:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/188%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:20+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Crossways&amp;nid=188</loc>
+  <lastmod>2013-11-22T00:56:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=15&amp;delta_15=%242%20Shops</loc>
+  <lastmod>2013-11-22T00:56:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/189%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Arthur%20Daley%27s%20Clearance%20House.&amp;nid=189</loc>
+  <lastmod>2013-11-22T00:56:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/194%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Club%20X%20Swanston%20St&amp;nid=194</loc>
+  <lastmod>2013-11-22T00:56:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/197%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=JB%20Hi-Fi%20Lonsdale%20St/Elizabeth%20St&amp;nid=197</loc>
+  <lastmod>2013-11-22T00:56:33+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/199%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Dandenong%20Charcoal%20Chicken&amp;nid=199</loc>
+  <lastmod>2013-11-22T00:56:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/202%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Dandenong%20Fish%20and%20Chips&amp;nid=202</loc>
+  <lastmod>2013-11-22T00:56:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/204%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Subway%20Noble%20Park&amp;nid=204</loc>
+  <lastmod>2013-11-22T00:56:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/207%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Telstra%20Store&amp;nid=207</loc>
+  <lastmod>2013-11-22T00:56:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/209%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Chinatown%20%28Melbourne%20CBD%29&amp;nid=209</loc>
+  <lastmod>2013-11-22T00:56:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=14&amp;delta_14=Supermarkets</loc>
+  <lastmod>2013-11-22T00:56:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/213%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=ALDI%20Melbourne%20CBD&amp;nid=213</loc>
+  <lastmod>2013-11-22T00:56:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=14&amp;delta_14=Markets</loc>
+  <lastmod>2013-11-22T00:56:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/218%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:56:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Fed%20Square%20Book%20Market&amp;nid=218</loc>
+  <lastmod>2013-11-22T00:56:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=12&amp;delta_12=Depots</loc>
+  <lastmod>2013-11-22T00:57:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/220%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Southern%20Cross%20Station%2C%20formerly%20Spencer%20street%20Station&amp;nid=220</loc>
+  <lastmod>2013-11-22T00:57:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/221%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=broadmeadows%20station&amp;nid=221</loc>
+  <lastmod>2013-11-22T00:57:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/search-review?field_category_tid=12&amp;delta_12=Airports</loc>
+  <lastmod>2013-11-22T00:57:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/222%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=901%20frankston%20to%20melbourne%20airport%20smartbus&amp;nid=222</loc>
+  <lastmod>2013-11-22T00:57:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/233%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Michel%27s%20Patisserie&amp;nid=233</loc>
+  <lastmod>2013-11-22T00:57:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/234%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=The%20Galleria&amp;nid=234</loc>
+  <lastmod>2013-11-22T00:57:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/235%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Allbooks4less&amp;nid=235</loc>
+  <lastmod>2013-11-22T00:57:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/237%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=MarkMuir&amp;nid=237</loc>
+  <lastmod>2013-11-22T00:57:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/241%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Melbourne%20GPO&amp;nid=241</loc>
+  <lastmod>2013-11-22T00:57:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/248%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:28+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Bendigo%20Bank&amp;nid=248</loc>
+  <lastmod>2013-11-22T00:57:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/249%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:31+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Suitability&amp;nid=249</loc>
+  <lastmod>2013-11-22T00:57:32+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/250%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:34+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Stotts%20Colleges&amp;nid=250</loc>
+  <lastmod>2013-11-22T00:57:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/256%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:37+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Croydon%20Hotel&amp;nid=256</loc>
+  <lastmod>2013-11-22T00:57:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/257%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Nirvana%20Computors&amp;nid=257</loc>
+  <lastmod>2013-11-22T00:57:42+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/258%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Seymour%20Street%20Medical%20and%20Dental%20Centre&amp;nid=258</loc>
+  <lastmod>2013-11-22T00:57:45+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/259%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=QV&amp;nid=259</loc>
+  <lastmod>2013-11-22T00:57:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/260%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:49+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Ringwood%20Railway%20Station&amp;nid=260</loc>
+  <lastmod>2013-11-22T00:57:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/267%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/report?venue=Stuzzi&amp;nid=267</loc>
+  <lastmod>2013-11-22T00:57:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://travellingchair.net/user?destination=node/270%3Faction%3Dreview</loc>
+  <lastmod>2013-11-22T00:57:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.41</priority>
+</url>
+</urlset>
