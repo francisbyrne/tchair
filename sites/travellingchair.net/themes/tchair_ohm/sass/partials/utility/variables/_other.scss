@@ -1,1 +1,4 @@
 $icon-padding: 24px;
+
+// selector for all text-like inputs (and default inputs)
+$text-inputs: 'input:not([type]), input[type="text"], input[type="email"], input[type="password"], textarea, input[type="search"], select';

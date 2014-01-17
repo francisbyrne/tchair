@@ -49,3 +49,7 @@
 a#review-now {
   @include button();
 }
+
+.field--name-field-view-result {
+  @include clearfix();
+}
