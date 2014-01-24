@@ -1,4 +1,4 @@
-.node--location {
+.node-type-location {
   .location-locations-header {
     display: none;
   }
@@ -16,13 +16,16 @@
         height: 2rem;
         background-color: $button-color-secondary;
         &:hover {
-          background-color: darken($button-color-secondary, 10%);
+          background-color: darken($button-color-secondary, 20%);
         }
       }
     }
     .group-location-content {
       clear: both;
     }
+  }
+  .field--name-field-latitude img {
+    margin-bottom: 0.5rem;
   }
   .field--name-field-subheading {
     @extend .gamma;
@@ -60,10 +63,10 @@
     }
   }
 }
-
 @include at-breakpoint($desk) {
-  .field--name-field-latitude, .field--name-field-category {
+  .field--name-field-latitude {
     float: right;
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
