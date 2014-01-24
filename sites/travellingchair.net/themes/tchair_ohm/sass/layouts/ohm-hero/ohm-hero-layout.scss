@@ -6,10 +6,6 @@
  ******************************************************************************/
 @import "../../partials/utility";
 
-body {
-  background: transparent image-url('diagonal.png') left top repeat;
-}
-
 .l-constrained {
   @extend %container;
   .tabs--primary {
@@ -45,7 +41,7 @@ body {
   background: #FFF;
   margin-top: 0;
   margin-bottom: 2 * $vert-spacing-unit;
-  padding: 0 $horz-spacing-unit;
+  padding: 1rem 1rem;
 }
 .page-home h1, .page-search-review-result h1 {
   margin-left: 2rem;
