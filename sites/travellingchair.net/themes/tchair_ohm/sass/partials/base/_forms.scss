@@ -28,10 +28,6 @@ input[type="submit"] {
   vertical-align: bottom;
   margin-bottom: 0.2rem;
 }
-[disabled] {
-
-}
-
 .form-wrapper {
   margin-bottom: $vert-spacing-unit;
 }
@@ -48,6 +44,9 @@ fieldset {
   margin-bottom: $vert-spacing-unit / 2;
   color: $mid-grey;
   font-style: italic;
+}
+.field {
+  margin-bottom: 1rem;
 }
 .vertical-tabs fieldset.vertical-tabs-pane {
   padding: $vert-spacing-unit $horz-spacing-unit;

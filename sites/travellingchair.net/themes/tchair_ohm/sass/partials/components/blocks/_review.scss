@@ -1,4 +1,4 @@
-.node--location {
+.node-type-location {
   .location-locations-header {
     display: none;
   }
@@ -7,22 +7,37 @@
       display: none;
     }
     .description {
-      @extend .beta;
-      float: left;
+      display: none;
     }
     .field--name-field-edit {
-      margin-left: $horz-spacing-unit;
       float: left;
+      height: 2.5rem;
       a.button {
-        height: 2em;
+        height: 2rem;
+        background-color: $button-color-secondary;
+        &:hover {
+          background-color: lighten($button-color-secondary, 20%);
+          color: white;
+        }
       }
     }
     .group-location-content {
       clear: both;
     }
   }
+  .field--name-field-latitude img {
+    margin-bottom: 0.5rem;
+  }
   .field--name-field-subheading {
     @extend .gamma;
+    @include font-size(26px);
+  }
+  .group-rating-summary {
+    @include clearfix();
+    margin-bottom: 1rem;
+    @include at-breakpoint($tab) {
+      float: right;
+    }
   }
   .group-visual .description {
     @include prepend-icon-visual;
@@ -35,7 +50,7 @@
   }
   .group_mobility, .group-visual, .group-hearing {
     clear: both;
-    margin-bottom: $vert-spacing-unit;
+    margin-bottom: 1rem;
     .description {
       @extend .gamma;
       border-bottom: 1px solid $light-grey;
@@ -49,17 +64,16 @@
   .group_mobility, .group_visual, .group_hearing {
     .rate-field-label {
       @include rating-label;
-      width: 20em;
     }
     .rate-widget {
       float: left;
     }
   }
 }
-
 @include at-breakpoint($desk) {
-  .field--name-field-latitude, .field--name-field-category {
-    float: left;
-    margin-right: $horz-spacing-unit;
+  .field--name-field-latitude {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
   }
 }

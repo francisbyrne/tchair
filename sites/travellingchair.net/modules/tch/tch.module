@@ -227,3 +227,32 @@ function tch_form_views_exposed_form_alter(&$form, $form_state, $form_id) {
 function tch_search_validation (){
 	views_exposed_form_validate();
 }
+
+/*
+ * Creates a star rating based on total votes and up/good votes
+ */
+function tch_star_rating($total, $good) {
+	$maxStars = 5;
+	
+	$output = '';
+	$stars = $good / $total * $maxStars;
+	$stars = floor( $stars * 2 ) / 2;
+
+	for ($i=0.5; $i < $stars; $i++) {
+	  $output .= '<span class="full">★</span>';
+	}
+	if ( is_numeric( $stars ) && floor( $stars ) != $stars ) $output.= '<span class="half">★</span>';
+
+	for ($i=$stars + 0.5; $i < $maxStars; $i++) {
+	  $output .= '<span class="empty">☆</span>';
+	}
+
+	if ($total == 1)
+		$plural = '';
+	else 
+		$plural = 's';
+
+	$output .= ' <span class="total-votes">(' . $total . ' rating' . $plural . ')</span>';
+
+	return $output;
+}

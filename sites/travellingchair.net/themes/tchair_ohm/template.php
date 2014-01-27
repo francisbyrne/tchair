@@ -179,8 +179,5 @@ function tchair_ohm_preprocess_rate_template_emotion(&$variables) {
   $variables['buttons'] = $buttons;
 
 //dsm($total_up) ;
-  
-  if ($total) $variables['info'] = "<div class='percentage-bar'><div class='good' style='width:".(100*$total_up/$total)."%'></div></div>";
-  else $variables['info'] = "<div class='percentage-bar empty'></div>";
-  $variables['info'] = "<div class='result'>good (".$total_up.")&nbsp;".$variables['info'] ."&nbsp;bad: (".$total_down.")</div>"; 
+  $variables['info'] = '<div class="result">' . tch_star_rating($total, $total_up) . '</div>';
 }
