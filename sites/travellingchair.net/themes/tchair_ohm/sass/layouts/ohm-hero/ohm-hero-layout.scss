@@ -43,9 +43,6 @@
   margin-bottom: 2 * $vert-spacing-unit;
   padding: 1rem 1rem;
 }
-.page-home h1, .page-search-review-result h1 {
-  margin-left: 2rem;
-}
 
 /* Sidebars */
 .l-region--sidebar-first,
@@ -102,6 +99,9 @@
 @include at-breakpoint($desk) {
   .l-constrained {
     @include set-container-width;
+  }
+  .page-home h1, .page-search-review-result h1 {
+    margin-left: 2rem;
   }
 
   /* Sidebars */

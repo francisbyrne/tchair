@@ -31,6 +31,13 @@
     @extend .gamma;
     @include font-size(26px);
   }
+  .group-rating-summary {
+    @include clearfix();
+    margin-bottom: 1rem;
+    @include at-breakpoint($tab) {
+      float: right;
+    }
+  }
   .group-visual .description {
     @include prepend-icon-visual;
   }
@@ -42,7 +49,7 @@
   }
   .group_mobility, .group-visual, .group-hearing {
     clear: both;
-    margin-bottom: $vert-spacing-unit;
+    margin-bottom: 1rem;
     .description {
       @extend .gamma;
       border-bottom: 1px solid $light-grey;
