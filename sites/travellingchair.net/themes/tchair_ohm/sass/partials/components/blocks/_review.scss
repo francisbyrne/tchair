@@ -63,7 +63,6 @@
   .group_mobility, .group_visual, .group_hearing {
     .rate-field-label {
       @include rating-label;
-      width: 20rem;
     }
     .rate-widget {
       float: left;

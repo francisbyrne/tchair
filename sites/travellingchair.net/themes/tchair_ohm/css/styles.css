@@ -1577,8 +1577,8 @@ a#review-now::-moz-focus-inner {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_ratings\.scss}line{font-family:\0000322}}
 .rate-info .label {
   float: left;
-  width: 50%;
-  margin-right: 1em;
+  width: 55%;
+  margin-right: 1rem;
   line-height: 2em;
   width: 5em;
 }
@@ -1804,18 +1804,17 @@ a#review-now::-moz-focus-inner {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_review\.scss}line{font-family:\0000364}}
   .group_mobility .rate-field-label, .group_visual .rate-field-label, .group_hearing .rate-field-label {
     float: left;
-    width: 50%;
-    margin-right: 1em;
+    width: 55%;
+    margin-right: 1rem;
     line-height: 2em;
-    width: 20rem;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_review\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_review\.scss}line{font-family:\0000367}}
   .group_mobility .rate-widget, .group_visual .rate-widget, .group_hearing .rate-widget {
     float: left;
   }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_review\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/byrnef87\/Sites\/tchair\/sites\/travellingchair\.net\/themes\/tchair_ohm\/sass\/partials\/components\/blocks\/_review\.scss}line{font-family:\0000373}}
   .field--name-field-latitude {
     float: right;
     margin-left: 1rem;
