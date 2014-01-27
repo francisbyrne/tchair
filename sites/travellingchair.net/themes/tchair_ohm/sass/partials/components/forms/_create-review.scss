@@ -47,7 +47,7 @@
 }
 
 a#review-now {
-  @include button();
+  @include button($button-color-secondary);
 }
 
 .field--name-field-view-result {

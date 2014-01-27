@@ -228,9 +228,14 @@ function tch_search_validation (){
 	views_exposed_form_validate();
 }
 
+/*
+ * Creates a star rating based on total votes and up/good votes
+ */
 function tch_star_rating($total, $good) {
+	$maxStars = 5;
+	
 	$output = '';
-	$stars = $good / $total * 5;
+	$stars = $good / $total * $maxStars;
 	$stars = floor( $stars * 2 ) / 2;
 
 	for ($i=0.5; $i < $stars; $i++) {
@@ -238,11 +243,16 @@ function tch_star_rating($total, $good) {
 	}
 	if ( is_numeric( $stars ) && floor( $stars ) != $stars ) $output.= '<span class="half">★</span>';
 
-	for ($i=$stars + 0.5; $i < 5; $i++) {
+	for ($i=$stars + 0.5; $i < $maxStars; $i++) {
 	  $output .= '<span class="empty">☆</span>';
 	}
 
-	$output .= ' <span class="total-votes">(' . $total . ' ratings)</span>';
+	if ($total == 1)
+		$plural = '';
+	else 
+		$plural = 's';
+
+	$output .= ' <span class="total-votes">(' . $total . ' rating' . $plural . ')</span>';
 
 	return $output;
 }

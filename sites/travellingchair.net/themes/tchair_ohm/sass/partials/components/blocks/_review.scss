@@ -16,7 +16,8 @@
         height: 2rem;
         background-color: $button-color-secondary;
         &:hover {
-          background-color: darken($button-color-secondary, 20%);
+          background-color: lighten($button-color-secondary, 20%);
+          color: white;
         }
       }
     }
